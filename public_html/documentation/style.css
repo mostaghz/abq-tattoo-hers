@@ -1,0 +1,17 @@
+h2 {
+    margin-top: 1.7em;
+}
+
+/* WIREFRAMES */
+
+#desktop {
+    width: 80%;
+    height: auto;
+    margin: 1.7em auto;
+}
+
+#mobile {
+    width: 100%;
+    height: auto;
+    margin: 1.7em auto;
+}
