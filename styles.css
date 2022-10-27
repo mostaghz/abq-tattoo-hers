@@ -1,0 +1,7 @@
+#header {
+    background-image: url('images/femaleTattooArtistBackground.jpg');
+    /*want the full size of the image... this shows full image but at tiny scale/tiled... ugh
+    background-size: contain;*/
+    padding: 20em;
+}
+
