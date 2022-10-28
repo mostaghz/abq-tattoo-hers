@@ -1,5 +1,5 @@
 let artists = [
-    // need to figure out how to hyperlink objects
+    // need to figure out how to hyperlink values
     // also need to determine if a second array needs to be created for subjects, like "Tattooing at: ", "Booking: ", etc.
     {
         img: 'images/chelsey-moore.jpg',
@@ -16,8 +16,61 @@ let artists = [
         instagram: '@fox_richards',
         shop: 'Coven Studio',
         booking: 'foxrichards.com',
-        specialtiesOne: 'Black and Gray Realism mixed with Geometric and Blackwork Elements',
+        specialtiesOne: 'Black and Gray Realism mixed with Geometric and Blackwork',
     },
+    {
+        img: '',
+        name: 'Arianna Shelton',
+        instagram: '@weirdmullet',
+        shop: 'Milagro Tattoo',
+        booking: 'milagrotattoo.com/ariannashelton',
+        specialtiesOne: '',
+    },
+    {
+        img: '',
+        name: 'Maggie Elena',
+        instagram: '@maggie.elena',
+        shop: 'Black Alchemy',
+        booking: 'maggieelenatattoo@gmail.com',
+        specialtiesOne: 'Heavy Blackwork',
+        specialtiesTwo: 'Neo-Tribal',
+    },
+    {
+        img: '',
+        name: 'Gina Marie Medlock',
+        instagram: '@ginamarietattoo',
+        shop: 'High Hands Tattoo',
+        booking: 'ginamarietattoo.com',
+        specialtiesOne: '',
+    },
+    {
+        img: '',
+        name: 'Kori',
+        instagram: '@korixmarie',
+        shop: 'Cellardoor Collective',
+        booking: 'korimarietattoo@gmail.com',
+        specialtiesOne: '',
+    },
+    {
+        img: '',
+        name: 'Isha Luz',
+        instagram: 'ishaluz.tattoos',
+        shop: 'Cheeky Monkey Tattoo',
+        booking: 'form.jotform.com/222216047476050',
+        specialtiesOne: 'Anime',
+        specialtiesTwo: 'Fine Line',
+        specialtiesThree: 'Illustrative',
+        specialtiesFour: 'Traditional',
+    },
+    {
+        img: '',
+        name: 'Sydney Settecerri',
+        instagram: '@squidartificial',
+        shop: 'Cheeky Monkey Tattoo',
+        booking: 'shop@cheekymonkeyabq.com',
+        specialtiesOne: '',
+    },
+
 ]
 
 console.log(artists)
