@@ -1,12 +1,13 @@
+// ARTISTS ARRAY
+
 let artists = [
-    // need to figure out how to hyperlink values
     // also need to determine if a second array needs to be created for subjects, like "Tattooing at: ", "Booking: ", etc.
     {
         img: 'images/chelsey-moore.jpg',
         name: 'Chelsey Moore',
         instagram: "@cmoore04",
-        shop: 'Archetype Tattoo Studio',
-        booking: 'chelseymooretattoo.com',
+        shop: '<a href="http://archetypetattoo.com/">Archetype Tattoo Studio</a>',
+        booking: '<a href="https://chelseymooretattoo.wordpress.com/">chelseymooretattoo.com</a>',
         specialtiesOne: 'Color Illustrative',
         specialtiesTwo: 'Color Realism',
     },
@@ -74,3 +75,17 @@ let artists = [
 ]
 
 console.log(artists)
+
+// LOOPING THROUGH THE DOM -- TEST FOR NOW TO SEE IF MY OBJECT A TAGS WORKED
+
+let targetDiv = document.getElementById('target')
+console.log(targetDiv)
+artists.forEach(
+
+    (artist) => {
+        targetDiv.innerHTML = `${targetDiv.innerHTML} <h2> ${artist.booking} </h2>` //`${ escapes the string
+        /* targetDiv.innerHTML = targetDiv.innerHTML + '<h2>' + person + '</h2>'*/ //the same as line 14
+        console.log(artist) //running once for each person in the array
+    }
+)
+
