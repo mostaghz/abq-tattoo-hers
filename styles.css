@@ -1,7 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+
 #header {
-    background-image: url('images/femaleTattooArtistBackground.jpg');
-    /*want the full size of the image... this shows full image but at tiny scale/tiled... ugh
-    background-size: contain;*/
-    padding: 20em;
+    background-image: url('images/flame-female-tattoo-artist.jpg');
+    /*want the full size of the image... this shows full image but at tiny scale/tiled... ugh*/
+    background-size: contain;
+}
+
+.card {
+    background-color: black;
+    color: white;
+}
+
+.card-img-top {
+    width: 25%;
+    height: 25%;
 }
 

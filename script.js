@@ -90,27 +90,28 @@ artists.forEach(
 )
 
 function handleLoadEvent () {
-            document.getElementById('target').innerHTML = artists.reduce(
-                // whatever function returns will be put into accumulatedCards
-                (artistDirectory, currentDataElement) => {
-                    return (
-                        `${artistDirectory}
-                          <div class="col">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">${currentDataElement.name}</h5>
-                                     <p class="card-text">${currentDataElement.instagram}</p>
-                                     <p class="card-text">${currentDataElement.shop}</p>
-                                     <p class="card-text">${currentDataElement.booking}</p>
-                                     <p class="card-text">${currentDataElement.specialtiesOne}</p>
-                                     <p class="card-text">${currentDataElement.specialtiesTwo}</p>
-                                     <p class="card-text">${currentDataElement.specialtiesThree}</p>
-                                     <p class="card-text">${currentDataElement.specialtiesFour}</p>
-                                </div>
+    document.getElementById('target').innerHTML = artists.reduce(
+        // whatever function returns will be put into accumulatedCards
+        (artistDirectory, currentDataElement) => {
+            return (
+                `${artistDirectory}
+                    <div class="col">
+                        <div class="card">
+                            <img src="${currentDataElement.img}" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">${currentDataElement.name}</h5>
+                                 <p class="card-text">${currentDataElement.instagram}</p>
+                                 <p class="card-text">${currentDataElement.shop}</p>
+                                 <p class="card-text">${currentDataElement.booking}</p>
+                                 <p class="card-text">${currentDataElement.specialtiesOne}</p>
+                                 <p class="card-text">${currentDataElement.specialtiesTwo}</p>
+                                 <p class="card-text">${currentDataElement.specialtiesThree}</p>
+                                 <p class="card-text">${currentDataElement.specialtiesFour}</p>
                             </div>
-                          </div>`
-                    )
-                    //    the empty '' takes care of the first empty string of [object, object]
-                }, ''
-        )
+                        </div>
+                    </div>`
+            )
+            //    the empty '' takes care of the first empty string of [object, object]
+        }, ''
+    )
 }
