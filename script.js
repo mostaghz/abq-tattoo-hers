@@ -76,16 +76,41 @@ let artists = [
 
 console.log(artists)
 
-// LOOPING THROUGH THE DOM -- TEST FOR NOW TO SEE IF MY OBJECT A TAGS WORKED
+// LOOPING THROUGH THE DOM -- A TAGS WORK AND LINES 86-90 WORK!
 
 let targetDiv = document.getElementById('target')
 console.log(targetDiv)
 artists.forEach(
 
     (artist) => {
-        targetDiv.innerHTML = `${targetDiv.innerHTML} <h2> ${artist.booking} </h2>` //`${ escapes the string
+        targetDiv.innerHTML = `${targetDiv.innerHTML} <h2> ${artist.name} </h2> <p> ${artist.booking} </p>`
         /* targetDiv.innerHTML = targetDiv.innerHTML + '<h2>' + person + '</h2>'*/ //the same as line 14
         console.log(artist) //running once for each person in the array
     }
 )
 
+function handleLoadEvent () {
+            document.getElementById('target').innerHTML = artists.reduce(
+                // whatever function returns will be put into accumulatedCards
+                (artistDirectory, currentDataElement) => {
+                    return (
+                        `${artistDirectory}
+                          <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">${currentDataElement.name}</h5>
+                                     <p class="card-text">${currentDataElement.instagram}</p>
+                                     <p class="card-text">${currentDataElement.shop}</p>
+                                     <p class="card-text">${currentDataElement.booking}</p>
+                                     <p class="card-text">${currentDataElement.specialtiesOne}</p>
+                                     <p class="card-text">${currentDataElement.specialtiesTwo}</p>
+                                     <p class="card-text">${currentDataElement.specialtiesThree}</p>
+                                     <p class="card-text">${currentDataElement.specialtiesFour}</p>
+                                </div>
+                            </div>
+                          </div>`
+                    )
+                    //    the empty '' takes care of the first empty string of [object, object]
+                }, ''
+        )
+}
