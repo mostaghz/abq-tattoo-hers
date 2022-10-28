@@ -4,6 +4,7 @@ let artists = [
     // also need to determine if a second array needs to be created for subjects, like "Tattooing at: ", "Booking: ", etc.
     {
         img: 'images/chelsey-moore.jpg',
+        alt: 'Chelsey sitting in her tattooing space',
         name: 'Chelsey Moore',
         instagram: "@cmoore04",
         shop: '<a href="http://archetypetattoo.com/">Archetype Tattoo Studio</a>',
@@ -13,6 +14,7 @@ let artists = [
     },
     {
         img: 'images/fox-richards.jpeg',
+        alt: 'rainbow logo of a fox head',
         name: 'Fox Richards',
         instagram: '@fox_richards',
         shop: 'Coven Studio',
@@ -78,17 +80,6 @@ console.log(artists)
 
 // LOOPING THROUGH THE DOM -- A TAGS WORK AND LINES 86-90 WORK!
 
-let targetDiv = document.getElementById('target')
-console.log(targetDiv)
-artists.forEach(
-
-    (artist) => {
-        targetDiv.innerHTML = `${targetDiv.innerHTML} <h2> ${artist.name} </h2> <p> ${artist.booking} </p>`
-        /* targetDiv.innerHTML = targetDiv.innerHTML + '<h2>' + person + '</h2>'*/ //the same as line 14
-        console.log(artist) //running once for each person in the array
-    }
-)
-
 function handleLoadEvent () {
     document.getElementById('target').innerHTML = artists.reduce(
         // whatever function returns will be put into accumulatedCards
@@ -97,7 +88,7 @@ function handleLoadEvent () {
                 `${artistDirectory}
                     <div class="col">
                         <div class="card">
-                            <img src="${currentDataElement.img}" class="card-img-top" alt="">
+                            <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="card-img-top">
                             <div class="card-body">
                                 <h5 class="card-title">${currentDataElement.name}</h5>
                                  <p class="card-text">${currentDataElement.instagram}</p>
