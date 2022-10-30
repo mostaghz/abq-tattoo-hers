@@ -129,21 +129,33 @@ let artists = [
     },
 ]
 
-console.log(artists)
+// SORTS ARTISTS BY NAME
+function compare( a, b ) {
+    if (a.name < b.name){
+        return -1;
+    }
+    if (a.name > b.name){
+        return 1;
+    }
+    return 0;
+}
 
-// LOOPING THROUGH THE DOM
+artists.sort(compare);
+
+
+// LOOPING T0 THE DOM
 function handleLoadEvent () {
     document.getElementById('target').innerHTML = artists.reduce(
-        // whatever function returns will be put into artist directory
+        // WHATEVER THE FUNCTION RETURNS WILL BE PUT INTO artistDirectory
         (artistDirectory, currentDataElement) => {
             return (
                 `${artistDirectory}
                     <div class="card border border-light mt-5">
                         <div class="row">
-                            <div class="col-md-4">
-                                <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid">
+                            <div class="col-md-6">
+                                <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid border border-light">
                             </div>    
-                            <div class="col-md-8">
+                            <div class="col-md-6">
                                 <h5 class="card-title">${currentDataElement.name}</h5>
                                  <p class="card-text">${currentDataElement.instagram}</p>
                                  <p class="card-text">${currentDataElement.shop}</p>
@@ -157,7 +169,7 @@ function handleLoadEvent () {
                         </div>
                     </div>`
             )
-            //    the empty '' takes care of the first empty string of [object, object]
+            // KEEP EMPTY '' OR THINGS FALL APART
         }, ''
     )
 }
