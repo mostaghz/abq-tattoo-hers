@@ -1,18 +1,22 @@
-// // LIST SECTION TITLES ARRAY
-//
-// let sectionTitles = [
-//     {
-//         instagramTitle: '',
-//         shopTitle: 'Shop:',
-//         bookingTitle: 'Booking:',
-//         specialtiesTitle: 'Specialties:',
-//     }
-// ]
+// EMPTY OBJECT TEMPLATE FOR WHEN NEW ARTISTS ARE ADDED
+
+/*{
+    img: '',
+    name: '',
+    instagram: '@',
+    shop: 'Shop: <a href="">/a>',
+    booking: 'Booking: <a href=""></a>',
+    specialtiesTitle: 'Specialties:',
+    specialtiesOne: '',
+    specialtiesTwo: '',
+    specialtiesThree: '',
+    specialtiesFour: '',
+},*/
+
 
 // ARTISTS ARRAY
 
 let artists = [
-    // also need to determine if a second array needs to be created for subjects, like "Tattooing at: ", "Booking: ", etc.
     {
         img: 'images/chelsey-moore.jpg',
         alt: 'Chelsey sitting in her tattooing space',
@@ -128,17 +132,18 @@ let artists = [
 console.log(artists)
 
 // LOOPING THROUGH THE DOM
-
 function handleLoadEvent () {
     document.getElementById('target').innerHTML = artists.reduce(
-        // whatever function returns will be put into accumulatedCards
+        // whatever function returns will be put into artist directory
         (artistDirectory, currentDataElement) => {
             return (
                 `${artistDirectory}
-                    <div class="col">
-                        <div class="card border border-light">
-                            <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="card-img-top">
-                            <div class="card-body">
+                    <div class="card border border-light mt-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid">
+                            </div>    
+                            <div class="col-md-8">
                                 <h5 class="card-title">${currentDataElement.name}</h5>
                                  <p class="card-text">${currentDataElement.instagram}</p>
                                  <p class="card-text">${currentDataElement.shop}</p>
