@@ -31,7 +31,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/fox-richards.jpeg',
+        img: 'images/fox-richards-square.jpg',
         alt: 'rainbow logo of a fox head',
         name: 'Fox Richards',
         instagram: '@fox_richards',
@@ -44,7 +44,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/image-coming-soon.jpg',
+        img: 'images/image-coming-soon-square.jpg',
         name: 'Arianna Shelton',
         instagram: '@weirdmullet',
         shop: 'Shop: <a href="https://www.milagrotattoo.com/">Milagro Tattoo</a>',
@@ -56,7 +56,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/maggie-elena.jpeg',
+        img: 'images/maggie-elena-square.jpg',
         name: 'Maggie Elena',
         instagram: '@maggie.elena',
         shop: 'Shop: <a href="https://blackalchemystudio.com/">Black Alchemy</a>',
@@ -68,7 +68,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/image-coming-soon.jpg',
+        img: 'images/image-coming-soon-square.jpg',
         name: 'Gina Marie Medlock',
         instagram: '@ginamarietattoo',
         shop: 'Shop: <a href="https://www.highhandstattoo.com/">High Hands Tattoo</a>',
@@ -80,7 +80,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/image-coming-soon.jpg',
+        img: 'images/image-coming-soon-square.jpg',
         name: 'Kori',
         instagram: '@korixmarie',
         shop: 'Shop: <a href="https://www.instagram.com/cellardoorabq/?hl=en">Cellardoor Collective</a>',
@@ -92,7 +92,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/image-coming-soon.jpg',
+        img: 'images/image-coming-soon-square.jpg',
         name: 'Isha Luz',
         instagram: 'ishaluz.tattoos',
         shop: 'Shop: <a href="https://www.cheekymonkeyabq.com/">Cheeky Monkey Tattoo</a>',
@@ -104,7 +104,7 @@ let artists = [
         specialtiesFour: 'Traditional',
     },
     {
-        img: 'images/image-coming-soon.jpg',
+        img: 'images/image-coming-soon-square.jpg',
         name: 'Sydney Settecerri',
         instagram: '@squidartificial',
         shop: 'Shop: <a href="https://www.cheekymonkeyabq.com/">Cheeky Monkey Tattoo</a>',
@@ -116,7 +116,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/image-coming-soon.jpg',
+        img: 'images/image-coming-soon-square.jpg',
         name: 'Reina Plant',
         instagram: '@reina.plant',
         shop: 'Shop: <a href="https://www.allisonetattoo.com/">All is One Tattoo</a>',
@@ -128,7 +128,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/image-coming-soon.jpg',
+        img: 'images/image-coming-soon-square.jpg',
         name: 'Nicole Sonobe',
         instagram: '@romatra_',
         shop: 'Shop: <a href="https://blackalchemystudio.com/">Black Alchemy</a>',
@@ -165,7 +165,7 @@ function handleLoadEvent () {
                     <div class="card border border-light mt-5 p-5">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid border border-light">
+                                <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid border border-light rounded-circle">
                             </div>    
                             <div class="col-md-6">
                                 <h5 class="card-title">${currentDataElement.name}</h5>
