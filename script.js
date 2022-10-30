@@ -150,7 +150,7 @@ function handleLoadEvent () {
         (artistDirectory, currentDataElement) => {
             return (
                 `${artistDirectory}
-                    <div class="card border border-light mt-5">
+                    <div class="card border border-light mt-5 p-5">
                         <div class="row">
                             <div class="col-md-6">
                                 <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid border border-light">
