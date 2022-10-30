@@ -16,3 +16,7 @@
 - add instagram icon/links
 - figure out how to get links to open on new tab instead of totally redirecting
 - center p tags after breaking for mobile view
+
+### footer icons ###
+- replace? githib negative space is actually unclickable negative space
+- change colors (hover too?) to match artist directory links
