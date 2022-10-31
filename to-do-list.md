@@ -10,7 +10,7 @@
 - add better background image
 
 ### artist directory ###
-- resize photos (and possibly reshape into circles)
+- ~~resize photos (and possibly reshape into circles)~~
 - change link/icon colors (hover too?)
 - figure out formatting for ul/li specialties (also how to avoid bullet points showing up for artist who don't have that many specialties)
 - add instagram icon/links

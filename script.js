@@ -18,7 +18,7 @@
 
 let artists = [
     {
-        img: 'images/chelsey-moore.jpg',
+        img: 'images/chelsey-moore-square-400.jpg',
         alt: 'Chelsey sitting in her tattooing space',
         name: 'Chelsey Moore',
         instagram: '@cmoore04',
@@ -31,7 +31,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/fox-richards-square.jpg',
+        img: 'images/fox-richards-square-400.jpg',
         alt: 'rainbow logo of a fox head',
         name: 'Fox Richards',
         instagram: '@fox_richards',
@@ -44,7 +44,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/image-coming-soon-square.jpg',
+        img: 'images/image-coming-soon-square-400.jpg',
         name: 'Arianna Shelton',
         instagram: '@weirdmullet',
         shop: 'Shop: <a href="https://www.milagrotattoo.com/">Milagro Tattoo</a>',
@@ -56,7 +56,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/maggie-elena-square.jpg',
+        img: 'images/maggie-elena-square-400.jpg',
         name: 'Maggie Elena',
         instagram: '@maggie.elena',
         shop: 'Shop: <a href="https://blackalchemystudio.com/">Black Alchemy</a>',
@@ -68,7 +68,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/image-coming-soon-square.jpg',
+        img: 'images/image-coming-soon-square-400.jpg',
         name: 'Gina Marie Medlock',
         instagram: '@ginamarietattoo',
         shop: 'Shop: <a href="https://www.highhandstattoo.com/">High Hands Tattoo</a>',
@@ -80,7 +80,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/image-coming-soon-square.jpg',
+        img: 'images/image-coming-soon-square-400.jpg',
         name: 'Kori',
         instagram: '@korixmarie',
         shop: 'Shop: <a href="https://www.instagram.com/cellardoorabq/?hl=en">Cellardoor Collective</a>',
@@ -92,7 +92,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/image-coming-soon-square.jpg',
+        img: 'images/image-coming-soon-square-400.jpg',
         name: 'Isha Luz',
         instagram: 'ishaluz.tattoos',
         shop: 'Shop: <a href="https://www.cheekymonkeyabq.com/">Cheeky Monkey Tattoo</a>',
@@ -104,7 +104,7 @@ let artists = [
         specialtiesFour: 'Traditional',
     },
     {
-        img: 'images/image-coming-soon-square.jpg',
+        img: 'images/image-coming-soon-square-400.jpg',
         name: 'Sydney Settecerri',
         instagram: '@squidartificial',
         shop: 'Shop: <a href="https://www.cheekymonkeyabq.com/">Cheeky Monkey Tattoo</a>',
@@ -116,7 +116,7 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/image-coming-soon-square.jpg',
+        img: 'images/image-coming-soon-square-400.jpg',
         name: 'Reina Plant',
         instagram: '@reina.plant',
         shop: 'Shop: <a href="https://www.allisonetattoo.com/">All is One Tattoo</a>',
@@ -128,16 +128,16 @@ let artists = [
         specialtiesFour: '',
     },
     {
-        img: 'images/image-coming-soon-square.jpg',
-        name: 'Nicole Sonobe',
+        img: 'images/nicole-square-400.jpg',
+        name: 'Nicole',
         instagram: '@romatra_',
         shop: 'Shop: <a href="https://blackalchemystudio.com/">Black Alchemy</a>',
         booking: 'Booking: <a href="mailto:romatratattoo@gmail.com">romatratattoo@gmail.com</a>',
         specialtiesTitle: 'Specialties:',
-        specialtiesOne: '',
-        specialtiesTwo: '',
-        specialtiesThree: '',
-        specialtiesFour: '',
+        specialtiesOne: 'Blackwork',
+        specialtiesTwo: 'Illustrative',
+        specialtiesThree: 'Geometric',
+        specialtiesFour: 'Dotwork',
     },
 ]
 
@@ -164,11 +164,11 @@ function handleLoadEvent () {
                 `${artistDirectory}
                     <div class="card border border-light mt-5 p-5">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-7 mx-auto">
                                 <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid border border-light rounded-circle">
                             </div>    
-                            <div class="col-md-6">
-                                <h5 class="card-title">${currentDataElement.name}</h5>
+                            <div class="col-md-5 my-auto">
+                                <h5 class="card-title display-4">${currentDataElement.name}</h5>
                                  <p class="card-text">${currentDataElement.instagram}</p>
                                  <p class="card-text">${currentDataElement.shop}</p>
                                  <p class="card-text">${currentDataElement.booking}</p>
