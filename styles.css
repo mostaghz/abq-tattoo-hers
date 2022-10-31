@@ -20,3 +20,19 @@ body {
 li {
     margin-left: 3em;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: turquoise;
+}
+
+a:visited {
+    color: turquoise;
+}
+
+a:hover {
+    color: hotpink;
+}
