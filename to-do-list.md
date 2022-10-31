@@ -2,7 +2,7 @@
 
 ### body ###
 - add fonts
-~~- change black background color to darker gray so it's not too intense??~~
+- change black background color to darker gray so it's not too intense??
 
 ### header ###
 - drop down nav bar that links to specific artist
@@ -12,10 +12,10 @@
 ### artist directory ###
 ~~- ~~resize photos (and possibly reshape into circles)~~~~
 ~~- change link/icon colors (hover too?)~~
-- figure out formatting for ul/li specialties (also how to avoid bullet points showing up for artist who don't have that many specialties)... prettu sure need an if statement (if specialtiesX === '' or undefined) or something
+- figure out formatting for ul/li specialties (also how to avoid bullet points showing up for artist who don't have that many specialties)... pretty sure need an if statement (if specialtiesX === '' || undefined) or something
 ~~- add instagram links~~
 - add hyperlinked icons instead of section titles?
-- figure out how to get links to open on new tab instead of totally redirecting
+- figure out how to get links to open on new tab instead of redirecting
 - center p tags after breaking for mobile view
 - add space between image and h1 when vertically stacking in mobile
 

@@ -1,7 +1,7 @@
 /* BODY */
 
 body {
-    background-color: #1b1a1a;
+    background-color: black;
     color: white;
 }
 
@@ -17,9 +17,28 @@ body {
 }
 
 /* HEADER TITLE -- SPINNING ASTERISK */
-/* LOOKS/WORKS GREAT ON DESKTOP... WEIRD ON MOBILE*/
+
+/* MEDIA QUERIES ARE PREVENTING ROTATING ANIMATION ON MOBILE AND TABLET -- DOESN'T WORK WITHOUT !IMPORTANT */
+@media screen and (max-width: 450px) {
+    .rotating {
+        animation: none !important;
+    }
+    .rotating:hover {
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .rotating {
+        animation: none !important;
+    }
+    .rotating:hover {
+        height: auto !important;
+    }
+}
 
 .rotating:hover {
+    /* HEIGHT AFFECTS ROTATION RADIUS */
     height: 4.2rem;
     display:inline-block;
     color: turquoise;
@@ -40,7 +59,7 @@ body {
 /* CARDS */
 
 .card {
-    background-color: #1b1a1a;
+    background-color: black;
     color: white;
 }
 
@@ -50,8 +69,8 @@ h5 {
 
 /* BULLET POINTS */
 
-li {
-    margin-left: 3em;
+.inline {
+    display: inline;
 }
 
 /* LINKS */

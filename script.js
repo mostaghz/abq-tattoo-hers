@@ -21,14 +21,11 @@ let artists = [
         img: 'images/chelsey-moore-square-400.jpg',
         alt: 'Chelsey sitting in her tattooing space',
         name: 'Chelsey Moore',
-        instagram: 'Instagram: <a href="https://www.instagram.com/cmoore04/?hl=en">@cmoore04</a>',
+        instagram: '<a href="https://www.instagram.com/cmoore04/?hl=en"><img src="images/white-insta-icon.png"/></a>',
         shop: 'Shop: <a href="http://archetypetattoo.com/">Archetype Tattoo Studio</a>',
         booking: 'Booking: <a href="https://chelseymooretattoo.wordpress.com/">chelseymooretattoo.com</a>',
         specialtiesTitle: 'Specialties:',
-        specialtiesOne: 'Color Illustrative',
-        specialtiesTwo: 'Color Realism',
-        specialtiesThree: '',
-        specialtiesFour: '',
+        specialties: ['Color Illustrative', 'Color Realism'],
     },
     {
         img: 'images/fox-richards-square-400.jpg',
@@ -38,10 +35,7 @@ let artists = [
         shop: 'Shop: Coven Studio',
         booking: 'Booking: <a href="https://www.foxrichards.com/">foxrichards.com</a>',
         specialtiesTitle: 'Specialties:',
-        specialtiesOne: 'Black and Gray Realism mixed with Geometric and Blackwork',
-        specialtiesTwo: '',
-        specialtiesThree: '',
-        specialtiesFour: '',
+        specialties: ['Black and Gray Realism mixed with Geometric and Blackwork'],
     },
     {
         img: 'images/image-coming-soon-square-400.jpg',
@@ -50,10 +44,7 @@ let artists = [
         shop: 'Shop: <a href="https://www.milagrotattoo.com/">Milagro Tattoo</a>',
         booking: 'Booking: <a href="https://www.milagrotattoo.com/ariannashelton">milagrotattoo.com/ariannashelton</a>',
         specialtiesTitle: 'Specialties:',
-        specialtiesOne: '',
-        specialtiesTwo: '',
-        specialtiesThree: '',
-        specialtiesFour: '',
+        specialties: [],
     },
     {
         img: 'images/maggie-elena-square-400.jpg',
@@ -62,10 +53,7 @@ let artists = [
         shop: 'Shop: <a href="https://blackalchemystudio.com/">Black Alchemy</a>',
         booking: 'Booking: <a href="mailto:maggieelenatattoo@gmail.com">maggieelenatattoo@gmail.com</a>',
         specialtiesTitle: 'Specialties:',
-        specialtiesOne: 'Heavy Blackwork',
-        specialtiesTwo: '',
-        specialtiesThree: '',
-        specialtiesFour: '',
+        specialties: ['Heavy Blackwork'],
     },
     {
         img: 'images/image-coming-soon-square-400.jpg',
@@ -74,10 +62,7 @@ let artists = [
         shop: 'Shop: <a href="https://www.highhandstattoo.com/">High Hands Tattoo</a>',
         booking: 'Booking: <a href="https://www.ginamarietattoo.com/">ginamarietattoo.com</a>',
         specialtiesTitle: 'Specialties:',
-        specialtiesOne: '',
-        specialtiesTwo: '',
-        specialtiesThree: '',
-        specialtiesFour: '',
+        specialties: [],
     },
     {
         img: 'images/image-coming-soon-square-400.jpg',
@@ -86,10 +71,7 @@ let artists = [
         shop: 'Shop: <a href="https://www.instagram.com/cellardoorabq/?hl=en">Cellardoor Collective</a>',
         booking: 'Booking: <a href="mailto:korimarietattoo@gmail.com">korimarietattoo@gmail.com</a>',
         specialtiesTitle: 'Specialties:',
-        specialtiesOne: '',
-        specialtiesTwo: '',
-        specialtiesThree: '',
-        specialtiesFour: '',
+        specialties: [],
     },
     {
         img: 'images/image-coming-soon-square-400.jpg',
@@ -98,10 +80,7 @@ let artists = [
         shop: 'Shop: <a href="https://www.cheekymonkeyabq.com/">Cheeky Monkey Tattoo</a>',
         booking: 'Booking: <a href ="form.jotform.com/222216047476050">form.jotform.com/222216047476050</a>',
         specialtiesTitle: 'Specialties:',
-        specialtiesOne: 'Anime',
-        specialtiesTwo: 'Fine Line',
-        specialtiesThree: 'Illustrative',
-        specialtiesFour: 'Traditional',
+        specialties: ['Anime', 'Fine Line', 'Illustrative', 'Traditional'],
     },
     {
         img: 'images/image-coming-soon-square-400.jpg',
@@ -110,10 +89,7 @@ let artists = [
         shop: 'Shop: <a href="https://www.cheekymonkeyabq.com/">Cheeky Monkey Tattoo</a>',
         booking: 'Booking: <a href="mailto:shop@cheekymonkeyabq.com">shop@cheekymonkeyabq.com</a>',
         specialtiesTitle: 'Specialties:',
-        specialtiesOne: '*Apprentice',
-        specialtiesTwo: '',
-        specialtiesThree: '',
-        specialtiesFour: '',
+        specialties: ['*Apprentice'],
     },
     {
         img: 'images/image-coming-soon-square-400.jpg',
@@ -122,10 +98,7 @@ let artists = [
         shop: 'Shop: <a href="https://www.allisonetattoo.com/">All is One Tattoo</a>',
         booking: 'Booking: <a href="mailto:korimarietattoo@gmail.com">allisonetattoo@gmail.com</a>',
         specialtiesTitle: 'Specialties:',
-        specialtiesOne: 'American Traditional',
-        specialtiesTwo: '',
-        specialtiesThree: '',
-        specialtiesFour: '',
+        specialties: ['American Traditional'],
     },
     {
         img: 'images/nicole-square-400.jpg',
@@ -134,10 +107,7 @@ let artists = [
         shop: 'Shop: <a href="https://blackalchemystudio.com/">Black Alchemy</a>',
         booking: 'Booking: <a href="mailto:romatratattoo@gmail.com">romatratattoo@gmail.com</a>',
         specialtiesTitle: 'Specialties:',
-        specialtiesOne: 'Blackwork',
-        specialtiesTwo: 'Illustrative',
-        specialtiesThree: 'Geometric',
-        specialtiesFour: 'Dotwork',
+        specialties: ['Blackwork', 'Illustrative', 'Geometric', 'Dotwork']
     },
 ]
 
@@ -172,11 +142,16 @@ function handleLoadEvent () {
                                  <p class="card-text">${currentDataElement.instagram}</p>
                                  <p class="card-text">${currentDataElement.shop}</p>
                                  <p class="card-text">${currentDataElement.booking}</p>
-                                 <p class="card-text">${currentDataElement.specialtiesTitle}</p>
-                                 <li class="card-text">${currentDataElement.specialtiesOne}</li>
-                                 <li class="card-text">${currentDataElement.specialtiesTwo}</li>
-                                 <li class="card-text">${currentDataElement.specialtiesThree}</li>
-                                 <li class="card-text">${currentDataElement.specialtiesFour}</li>
+                                 <!-- wrapping specialties p and ul/li in div class and making them inline to make bullet points on same line as title -->
+                                 <div class="d-flex">
+                                    <p class="inline card-text">${currentDataElement.specialtiesTitle}</p>
+                                    <ul class="inline">
+                                    <!-- looping through specialties -->
+                                    ${currentDataElement.specialties.reduce((accumulator, specialty) => {
+                                        return `${accumulator}<li class="card-text">${specialty}</li>`
+                },'')}
+                                    </ul>
+                                 </div>
                             </div>
                         </div>
                     </div>`
