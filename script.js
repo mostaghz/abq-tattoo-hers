@@ -3,7 +3,7 @@
 /*{
     img: '',
     name: '',
-    instagram: '@',
+    instagram: 'Instagram: <a href="">@</a>',
     shop: 'Shop: <a href="">/a>',
     booking: 'Booking: <a href=""></a>',
     specialtiesTitle: 'Specialties:',
@@ -21,7 +21,7 @@ let artists = [
         img: 'images/chelsey-moore-square-400.jpg',
         alt: 'Chelsey sitting in her tattooing space',
         name: 'Chelsey Moore',
-        instagram: '@cmoore04',
+        instagram: 'Instagram: <a href="https://www.instagram.com/cmoore04/?hl=en">@cmoore04</a>',
         shop: 'Shop: <a href="http://archetypetattoo.com/">Archetype Tattoo Studio</a>',
         booking: 'Booking: <a href="https://chelseymooretattoo.wordpress.com/">chelseymooretattoo.com</a>',
         specialtiesTitle: 'Specialties:',
@@ -34,7 +34,7 @@ let artists = [
         img: 'images/fox-richards-square-400.jpg',
         alt: 'rainbow logo of a fox head',
         name: 'Fox Richards',
-        instagram: '@fox_richards',
+        instagram: 'Instagram: <a href="https://www.instagram.com/fox_richards/?hl=en">@fox_richards</a>',
         shop: 'Shop: Coven Studio',
         booking: 'Booking: <a href="https://www.foxrichards.com/">foxrichards.com</a>',
         specialtiesTitle: 'Specialties:',
@@ -46,7 +46,7 @@ let artists = [
     {
         img: 'images/image-coming-soon-square-400.jpg',
         name: 'Arianna Shelton',
-        instagram: '@weirdmullet',
+        instagram: 'Instagram: <a href="https://www.instagram.com/weirdmullet/?hl=en">@weirdmullet</a>',
         shop: 'Shop: <a href="https://www.milagrotattoo.com/">Milagro Tattoo</a>',
         booking: 'Booking: <a href="https://www.milagrotattoo.com/ariannashelton">milagrotattoo.com/ariannashelton</a>',
         specialtiesTitle: 'Specialties:',
@@ -58,7 +58,7 @@ let artists = [
     {
         img: 'images/maggie-elena-square-400.jpg',
         name: 'Maggie Elena',
-        instagram: '@maggie.elena',
+        instagram: 'Instagram: <a href"https://www.instagram.com/maggie.elena/?hl=en">@maggie.elena</a>',
         shop: 'Shop: <a href="https://blackalchemystudio.com/">Black Alchemy</a>',
         booking: 'Booking: <a href="mailto:maggieelenatattoo@gmail.com">maggieelenatattoo@gmail.com</a>',
         specialtiesTitle: 'Specialties:',
@@ -70,7 +70,7 @@ let artists = [
     {
         img: 'images/image-coming-soon-square-400.jpg',
         name: 'Gina Marie Medlock',
-        instagram: '@ginamarietattoo',
+        instagram: 'Instagram: <a href="https://www.instagram.com/ginamarietattoo/?hl=en">@ginamarietattoo</a>',
         shop: 'Shop: <a href="https://www.highhandstattoo.com/">High Hands Tattoo</a>',
         booking: 'Booking: <a href="https://www.ginamarietattoo.com/">ginamarietattoo.com</a>',
         specialtiesTitle: 'Specialties:',
@@ -82,7 +82,7 @@ let artists = [
     {
         img: 'images/image-coming-soon-square-400.jpg',
         name: 'Kori',
-        instagram: '@korixmarie',
+        instagram: 'Instagram: <a href="https://www.instagram.com/korixmarie/?hl=en">@korixmarie</a>',
         shop: 'Shop: <a href="https://www.instagram.com/cellardoorabq/?hl=en">Cellardoor Collective</a>',
         booking: 'Booking: <a href="mailto:korimarietattoo@gmail.com">korimarietattoo@gmail.com</a>',
         specialtiesTitle: 'Specialties:',
@@ -94,7 +94,7 @@ let artists = [
     {
         img: 'images/image-coming-soon-square-400.jpg',
         name: 'Isha Luz',
-        instagram: 'ishaluz.tattoos',
+        instagram: 'Instagram: <a href="https://www.instagram.com/ishaluz.tattoos/?hl=en">@ishaluz.tattoos</a>',
         shop: 'Shop: <a href="https://www.cheekymonkeyabq.com/">Cheeky Monkey Tattoo</a>',
         booking: 'Booking: <a href ="form.jotform.com/222216047476050">form.jotform.com/222216047476050</a>',
         specialtiesTitle: 'Specialties:',
@@ -106,7 +106,7 @@ let artists = [
     {
         img: 'images/image-coming-soon-square-400.jpg',
         name: 'Sydney Settecerri',
-        instagram: '@squidartificial',
+        instagram: 'Instagram: <a href="https://www.instagram.com/squidartificial/?hl=en">@squidartificial</a>',
         shop: 'Shop: <a href="https://www.cheekymonkeyabq.com/">Cheeky Monkey Tattoo</a>',
         booking: 'Booking: <a href="mailto:shop@cheekymonkeyabq.com">shop@cheekymonkeyabq.com</a>',
         specialtiesTitle: 'Specialties:',
@@ -118,7 +118,7 @@ let artists = [
     {
         img: 'images/image-coming-soon-square-400.jpg',
         name: 'Reina Plant',
-        instagram: '@reina.plant',
+        instagram: 'Instagram: <a href="https://www.instagram.com/reina.plant/?hl=en">@reina.plant</a>',
         shop: 'Shop: <a href="https://www.allisonetattoo.com/">All is One Tattoo</a>',
         booking: 'Booking: <a href="mailto:korimarietattoo@gmail.com">allisonetattoo@gmail.com</a>',
         specialtiesTitle: 'Specialties:',
@@ -130,7 +130,7 @@ let artists = [
     {
         img: 'images/nicole-square-400.jpg',
         name: 'Nicole',
-        instagram: '@romatra_',
+        instagram: 'Instagram: <a href="https://www.instagram.com/romatra_/?hl=en">@romatra_</a>',
         shop: 'Shop: <a href="https://blackalchemystudio.com/">Black Alchemy</a>',
         booking: 'Booking: <a href="mailto:romatratattoo@gmail.com">romatratattoo@gmail.com</a>',
         specialtiesTitle: 'Specialties:',

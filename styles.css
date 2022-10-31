@@ -1,7 +1,11 @@
+/* BODY */
+
 body {
-    background-color: black;
+    background-color: #1b1a1a;
     color: white;
 }
+
+/* HEADER IMAGE */
 
 .masthead {
     height: 80vh;
@@ -12,14 +16,24 @@ body {
     background-repeat: no-repeat;
 }
 
+/* CARDS */
+
 .card {
-    background-color: black;
+    background-color: #1b1a1a;
     color: white;
 }
+
+h5 {
+    padding-bottom: .4em;
+}
+
+/* BULLET POINTS */
 
 li {
     margin-left: 3em;
 }
+
+/* LINKS */
 
 a {
     text-decoration: none;
