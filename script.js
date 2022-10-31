@@ -162,9 +162,9 @@ function handleLoadEvent () {
         (artistDirectory, currentDataElement) => {
             return (
                 `${artistDirectory}
-                    <div class="card border border-light mt-5 p-5">
+                    <div class="card mt-5 p-5">
                         <div class="row">
-                            <div class="col-md-7 mx-auto">
+                            <div class="col-md-7 mx-auto text-center">
                                 <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid border border-light rounded-circle">
                             </div>    
                             <div class="col-md-5 my-auto">
@@ -173,10 +173,10 @@ function handleLoadEvent () {
                                  <p class="card-text">${currentDataElement.shop}</p>
                                  <p class="card-text">${currentDataElement.booking}</p>
                                  <p class="card-text">${currentDataElement.specialtiesTitle}</p>
-                                 <p class="card-text">${currentDataElement.specialtiesOne}</p>
-                                 <p class="card-text">${currentDataElement.specialtiesTwo}</p>
-                                 <p class="card-text">${currentDataElement.specialtiesThree}</p>
-                                 <p class="card-text">${currentDataElement.specialtiesFour}</p>
+                                 <li class="card-text">${currentDataElement.specialtiesOne}</li>
+                                 <li class="card-text">${currentDataElement.specialtiesTwo}</li>
+                                 <li class="card-text">${currentDataElement.specialtiesThree}</li>
+                                 <li class="card-text">${currentDataElement.specialtiesFour}</li>
                             </div>
                         </div>
                     </div>`

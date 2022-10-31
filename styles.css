@@ -17,5 +17,6 @@ body {
     color: white;
 }
 
-.img-fluid {
+li {
+    margin-left: 3em;
 }
