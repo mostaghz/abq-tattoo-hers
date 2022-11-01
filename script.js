@@ -7,10 +7,7 @@
     shop: 'Shop: <a href="">/a>',
     booking: 'Booking: <a href=""></a>',
     specialtiesTitle: 'Specialties:',
-    specialtiesOne: '',
-    specialtiesTwo: '',
-    specialtiesThree: '',
-    specialtiesFour: '',
+    specialties: [],
 },*/
 
 
@@ -25,7 +22,7 @@ let artists = [
         shop: 'Shop: <a href="http://archetypetattoo.com/">Archetype Tattoo Studio</a>',
         booking: 'Booking: <a href="https://chelseymooretattoo.wordpress.com/">chelseymooretattoo.com</a>',
         specialtiesTitle: 'Specialties:',
-        specialties: ['Color Illustrative', 'Color Realism'],
+        specialties: ['Color Illustrative, ', 'Color Realism'],
     },
     {
         img: 'images/fox-richards-square-400.jpg',
@@ -80,7 +77,7 @@ let artists = [
         shop: 'Shop: <a href="https://www.cheekymonkeyabq.com/">Cheeky Monkey Tattoo</a>',
         booking: 'Booking: <a href ="form.jotform.com/222216047476050">form.jotform.com/222216047476050</a>',
         specialtiesTitle: 'Specialties:',
-        specialties: ['Anime', 'Fine Line', 'Illustrative', 'Traditional'],
+        specialties: ['Anime, ', 'Fine Line, ', 'Illustrative, ', 'Traditional'],
     },
     {
         img: 'images/image-coming-soon-square-400.jpg',
@@ -106,8 +103,8 @@ let artists = [
         instagram: 'Instagram: <a href="https://www.instagram.com/romatra_/?hl=en">@romatra_</a>',
         shop: 'Shop: <a href="https://blackalchemystudio.com/">Black Alchemy</a>',
         booking: 'Booking: <a href="mailto:romatratattoo@gmail.com">romatratattoo@gmail.com</a>',
-        specialtiesTitle: 'Specialties:',
-        specialties: ['Blackwork', 'Illustrative', 'Geometric', 'Dotwork']
+        specialtiesTitle: 'Specialties: ',
+        specialties: ['Blackwork,', 'Illustrative,', 'Geometric,', 'Dotwork']
     },
 ]
 
@@ -145,12 +142,10 @@ function handleLoadEvent () {
                                  <!-- wrapping specialties p and ul/li in div class and making them inline to make bullet points on same line as title -->
                                  <div class="d-flex">
                                     <p class="inline card-text">${currentDataElement.specialtiesTitle}</p>
-                                    <ul class="inline">
                                     <!-- looping through specialties -->
                                     ${currentDataElement.specialties.reduce((accumulator, specialty) => {
-                                        return `${accumulator}<li class="card-text">${specialty}</li>`
+                                        return `${accumulator}<p class="card-text">${specialty}</p>`
                 },'')}
-                                    </ul>
                                  </div>
                             </div>
                         </div>

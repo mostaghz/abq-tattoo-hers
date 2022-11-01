@@ -1,11 +1,15 @@
-/* BODY */
+/*********
+  BODY
+*********/
 
 body {
     background-color: black;
     color: white;
 }
 
-/* HEADER IMAGE */
+/*****************
+   HEADER IMAGE
+*****************/
 
 .masthead {
     height: 80vh;
@@ -16,9 +20,11 @@ body {
     background-repeat: no-repeat;
 }
 
-/* HEADER TITLE -- SPINNING ASTERISK */
+/*********************
+  SPINNING ASTERISK
+*********************/
 
-/* MEDIA QUERIES ARE PREVENTING ROTATING ANIMATION ON MOBILE AND TABLET -- DOESN'T WORK WITHOUT !IMPORTANT */
+/* MEDIA QUERIES ARE STOPPING ROTATE ANIMATION ON MOBILE AND TABLET -- DOESN'T WORK WITHOUT !IMPORTANT */
 @media screen and (max-width: 450px) {
     .rotating {
         animation: none !important;
@@ -56,24 +62,36 @@ body {
     animation-timing-function: linear;
 }
 
-/* CARDS */
+/*********
+  CARDS
+*********/
 
 .card {
     background-color: black;
     color: white;
 }
 
+/* ADDS SPACING BETWEEN SPECIALTIES VALUES */
+.card-text {
+    margin-right: 0.25rem;
+}
+
 h5 {
     padding-bottom: .4em;
 }
 
-/* BULLET POINTS */
+/****************
+  BULLET POINTS
+****************/
 
-.inline {
-    display: inline;
-}
+/*.inline {*/
+/*    display: inline;*/
+/*}*/
 
-/* LINKS */
+
+/*********
+  LINKS
+*********/
 
 a {
     text-decoration: none;
@@ -91,7 +109,10 @@ a:hover {
     color: hotpink;
 }
 
-/* FOOTER */
+
+/***********
+   FOOTER
+***********/
 
 footer {
     margin-top: 7em;
