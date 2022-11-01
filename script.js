@@ -22,7 +22,7 @@ let artists = [
         shop: 'Shop: <a href="http://archetypetattoo.com/">Archetype Tattoo Studio</a>',
         booking: 'Booking: <a href="https://chelseymooretattoo.wordpress.com/">chelseymooretattoo.com</a>',
         specialtiesTitle: 'Specialties:',
-        specialties: ['Color Illustrative, ', 'Color Realism'],
+        specialties: ['Color Illustrative,', 'Color Realism'],
     },
     {
         img: 'images/fox-richards-square-400.jpg',
@@ -77,7 +77,7 @@ let artists = [
         shop: 'Shop: <a href="https://www.cheekymonkeyabq.com/">Cheeky Monkey Tattoo</a>',
         booking: 'Booking: <a href ="form.jotform.com/222216047476050">form.jotform.com/222216047476050</a>',
         specialtiesTitle: 'Specialties:',
-        specialties: ['Anime, ', 'Fine Line, ', 'Illustrative, ', 'Traditional'],
+        specialties: ['Anime,', 'Fine Line,', 'Illustrative,', 'Traditional'],
     },
     {
         img: 'images/image-coming-soon-square-400.jpg',
@@ -139,7 +139,7 @@ function handleLoadEvent () {
                                  <p class="card-text">${currentDataElement.instagram}</p>
                                  <p class="card-text">${currentDataElement.shop}</p>
                                  <p class="card-text">${currentDataElement.booking}</p>
-                                 <!-- wrapping specialties p and ul/li in div class and making them inline to make bullet points on same line as title -->
+                                 <!-- wrapping specialties p in div and making them inline to make them land on same line as title -->
                                  <div class="d-flex">
                                     <p class="inline card-text">${currentDataElement.specialtiesTitle}</p>
                                     <!-- looping through specialties -->
