@@ -71,6 +71,16 @@ body {
     color: white;
 }
 
+@media screen and (max-width: 450px) {
+    img {
+        margin-bottom: 1.5rem;
+    }
+
+    #card-alignment {
+        text-align: center;
+    }
+}
+
 /* ADDS SPACING BETWEEN SPECIALTIES VALUES */
 .card-text {
     margin-right: 0.25rem;

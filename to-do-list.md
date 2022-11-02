@@ -16,8 +16,9 @@
 ~~- add instagram links~~
 ~~- add hyperlinked icons instead of section titles?~~
 ~~- figure out how to get links to open on new tab instead of redirecting~~
-- center p tags after breaking for mobile view
-- add space between image and h1 when vertically stacking in mobile
+~~- center p tags after breaking for mobile view~~
+~~- add space between image and h1 when vertically stacking in mobile~~
+- write new code (for each?) to spit out specialties array
 
 ### footer icons ###
 - replace? githib negative space is actually unclickable negative space
