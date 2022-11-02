@@ -15,7 +15,7 @@
 ~~- figure out formatting for ul/li specialties (also how to avoid bullet points showing up for artist who don't have that many specialties)... pretty sure need an if statement (if specialtiesX === '' || undefined) or something~~
 ~~- add instagram links~~
 ~~- add hyperlinked icons instead of section titles?~~
-- figure out how to get links to open on new tab instead of redirecting
+~~- figure out how to get links to open on new tab instead of redirecting~~
 - center p tags after breaking for mobile view
 - add space between image and h1 when vertically stacking in mobile
 

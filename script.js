@@ -134,7 +134,7 @@ function handleLoadEvent () {
                             <div class="col-md-7 mx-auto text-center">
                                 <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid border border-light rounded-circle">
                             </div>    
-                            <div class="col-md-5 my-auto">
+                            <div class="col-md-5 my-auto text-center text-md-start text-lg-start text-xl-start">
                                 <h5 class="card-title display-4">${currentDataElement.name}</h5>
                                  <p class="card-text">${currentDataElement.instagram}</p>
                                  <p class="card-text">${currentDataElement.shop}</p>
