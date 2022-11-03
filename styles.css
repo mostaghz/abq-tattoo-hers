@@ -76,27 +76,14 @@ body {
         margin-bottom: 1.5rem;
     }
 
-    #card-alignment {
+    .card-alignment {
         text-align: center;
     }
-}
-
-/* ADDS SPACING BETWEEN SPECIALTIES VALUES */
-.card-text {
-    margin-right: 0.25rem;
 }
 
 h5 {
     padding-bottom: .4em;
 }
-
-/****************
-  BULLET POINTS
-****************/
-
-/*.inline {*/
-/*    display: inline;*/
-/*}*/
 
 
 /*********

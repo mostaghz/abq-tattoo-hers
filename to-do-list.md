@@ -19,8 +19,8 @@
 ~~- figure out how to get links to open on new tab instead of redirecting~~
 ~~- center p tags after breaking for mobile view~~
 ~~- add space between image and h1 when vertically stacking in mobile~~
-- write new code (for each?) to spit out specialties array
-  - reduce code (initially for bullet points) seems to be causing horiozontal scroll... maybe for each will help...
+~~- write new code (for each?) to spit out specialties array~~
+  ~~- reduce code (initially for bullet points) seems to be causing horiozontal scroll... maybe for each will help...~~
 
 ### footer icons
 - replace? githib negative space is actually unclickable negative space
