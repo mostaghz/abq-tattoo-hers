@@ -4,7 +4,7 @@
 - add fonts
 - change black background color to darker gray so it's not too intense??
 
-### header
+### header?
 - drop down nav bar that links to specific artist?
     - OR sticky button that takes users back to top
 - add better background image?
