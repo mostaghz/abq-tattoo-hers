@@ -62,13 +62,13 @@ let artists = [
         specialties: [],
     },
     {
-        img: 'images/image-coming-soon-square-400.jpg',
-        name: 'Kori',
+        img: 'images/kori-marie-square-400.jpg',
+        name: 'Kori Marie',
         instagram: 'Instagram: <a href="https://www.instagram.com/korixmarie/?hl=en">@korixmarie</a>',
         shop: 'Shop: <a href="https://www.instagram.com/cellardoorabq/?hl=en">Cellardoor Collective</a>',
         booking: 'Booking: <a href="mailto:korimarietattoo@gmail.com">korimarietattoo@gmail.com</a>',
         specialtiesTitle: 'Specialties:',
-        specialties: [],
+        specialties: ['American Traditional'],
     },
     {
         img: 'images/image-coming-soon-square-400.jpg',
