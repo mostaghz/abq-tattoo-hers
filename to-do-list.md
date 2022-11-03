@@ -1,15 +1,16 @@
-# to-do list #
+# to-do list
 
-### body ###
+### body
 - add fonts
 - change black background color to darker gray so it's not too intense??
 
-### header ###
+### header
 - drop down nav bar that links to specific artist?
     - OR sticky button that takes users back to top
 - add better background image?
 
-### artist directory ###
+
+### artist directory
 ~~- ~~resize photos (and possibly reshape into circles)~~~~
 ~~- change link/icon colors (hover too?)~~
 ~~- figure out formatting for ul/li specialties (also how to avoid bullet points showing up for artist who don't have that many specialties)... pretty sure need an if statement (if specialtiesX === '' || undefined) or something~~
@@ -19,7 +20,8 @@
 ~~- center p tags after breaking for mobile view~~
 ~~- add space between image and h1 when vertically stacking in mobile~~
 - write new code (for each?) to spit out specialties array
+  - reduce code (initially for bullet points) seems to be causing horiozontal scroll... maybe for each will help...
 
-### footer icons ###
+### footer icons
 - replace? githib negative space is actually unclickable negative space
 ~~- change colors (hover too?) to match artist directory links~~
