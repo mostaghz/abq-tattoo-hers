@@ -115,3 +115,7 @@ footer {
     margin-top: 7em;
     margin-bottom: 2em;
 }
+
+#githubIcon {
+    padding: 0 10em;
+}

@@ -121,6 +121,7 @@ function handleLoadEvent () {
         (artistDirectory, currentDataElement) => {
             return (
                 `${artistDirectory}
+                    <!-- .name.replace is for internal links to navigate artist directory -->
                     <div class="card mt-5 p-5" id="${currentDataElement.name.replace(/\s/g, '')}">
                         <div class="row">
                             <div class="col-md-7 mx-auto text-center">
