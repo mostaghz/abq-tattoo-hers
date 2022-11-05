@@ -6,7 +6,8 @@
 
 ### header?
 - drop down nav bar that links to specific artist?
-    - OR sticky button that takes users back to top
+  - need to move artist drop down to right side... justify-text-end, text-end, ml-auto havent' worked
+- sticky button that takes users back to top
 - add better background image?
 
 

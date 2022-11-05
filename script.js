@@ -3,9 +3,9 @@
 /*{
     img: '',
     name: '',
-    instagram: 'Instagram: <a href="">@</a>',
-    shop: 'Shop: <a href="">/a>',
-    booking: 'Booking: <a href=""></a>',
+    instagram: '<a href="">@</a>',
+    shop: '<a href="">/a>',
+    booking: '<a href=""></a>',
     specialties: [],
 },*/
 
@@ -16,10 +16,11 @@ let artists = [
     {
         img: 'images/chelsey-moore-square-400.jpg',
         alt: 'Chelsey sitting in her tattooing space',
-        name: 'Chelsey Moore',
-        instagram: '<a href="https://www.instagram.com/cmoore04/?hl=en" target="_blank"><!--<img src="images/white-insta-icon.png"/> -->@cmoore04</a>',
-        shop: '<a href="http://archetypetattoo.com/" target="_blank">Archetype Tattoo Studio</a>',
-        booking: '<a href="https://chelseymooretattoo.wordpress.com/" target="_blank">chelseymooretattoo.com</a>',
+        name: 'CHELSEY MOORE',
+        instagram: '<a href="https://www.instagram.com/cmoore04/?hl=en" target="_blank"><img src="images/white-calendar-icon.jpg" class="icons" alt="white instagram icon linking to Chelseys account"/></a>',
+        shopIcon: '<a href="http://archetypetattoo.com/" target="_blank"><img src="images/white-tattoo-icon.png" class="icons" alt="white tattoo machine icon linking to Archetype Tattoos shop site"/></a>',
+        shop: 'Archetype Tattoo Studio',
+        booking: '<a href="https://chelseymooretattoo.wordpress.com/" target="_blank"><img src="images/white-calendar-icon.jpg" class="icons" alt="white calendar icon linking to Chelseys booking site"/></a>',
         specialties: ['Color Illustrative', 'Color Realism'],
     },
     {
@@ -122,19 +123,27 @@ function handleLoadEvent () {
             return (
                 `${artistDirectory}
                     <!-- .name.replace is for internal links to navigate artist directory -->
-                    <div class="card mt-5 p-5" id="${currentDataElement.name.replace(/\s/g, '')}">
+                    <div class="card mt-5 py-5" id="${currentDataElement.name.replace(/\s/g, '')}">
                         <div class="row">
-                            <div class="col-md-7 mx-auto text-center">
-                                <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid border border-light rounded-circle">
+                            <div class="col-md-3">
+                            
                             </div>
-                            <div class="col-md-5 my-auto card-alignment">
-                                <h5 class="card-title display-4 mt-2">${currentDataElement.name}</h5>
+                            <div class="col-md-3 text-center">
+                                <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid border border-light">
+                            </div>
+                            <div class="col-md-3 card-alignment">
+                                <p class="card-text mt-2" id="name">${currentDataElement.name}</p>
+                                <p class="card-text" id="shop">${currentDataElement.shop}</p>
+                                <p class="card-text" id="specialties">${currentDataElement.specialties.join(', ')}
                                 <!-- putting section titles here (Instagram:) to keep array values as data only -->
-                                <p class="card-text">Instagram: ${currentDataElement.instagram}</p>
-                                <p class="card-text">Shop: ${currentDataElement.shop}</p>
-                                <p class="card-text">Booking: ${currentDataElement.booking}</p>
+                                <p class="card-text">${currentDataElement.instagram} <span>${currentDataElement.shopIcon}</span> ${currentDataElement.booking}</p>
+                                <!--<p class="card-text">${currentDataElement.shop}</p>
+                                <p class="card-text">${currentDataElement.booking}</p>-->
                                 <!-- joins values as string separated by comma and space --> 
-                                <p class="card-text">Specialties: ${currentDataElement.specialties.join(', ')}</p>
+                                <!--<p class="card-text">${currentDataElement.specialties.join(', ')}</p>-->
+                            </div>
+                            <div class="col-md-3">
+                            
                             </div>
                         </div>
                     </div>`

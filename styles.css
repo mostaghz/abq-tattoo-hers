@@ -4,7 +4,7 @@
 
 body {
     background-color: black;
-    color: white;
+    color: #dddddd;
 }
 
 /*****************
@@ -25,42 +25,42 @@ body {
 *********************/
 
 /* MEDIA QUERIES ARE STOPPING ROTATE ANIMATION ON MOBILE AND TABLET -- DOESN'T WORK WITHOUT !IMPORTANT */
-@media screen and (max-width: 450px) {
-    .rotating {
-        animation: none !important;
-    }
-    .rotating:hover {
-        height: auto !important;
-    }
-}
+/*@media screen and (max-width: 450px) {*/
+/*    .rotating {*/
+/*        animation: none !important;*/
+/*    }*/
+/*    .rotating:hover {*/
+/*        height: auto !important;*/
+/*    }*/
+/*}*/
 
-@media screen and (max-width: 1024px) {
-    .rotating {
-        animation: none !important;
-    }
-    .rotating:hover {
-        height: auto !important;
-    }
-}
+/*@media screen and (max-width: 1024px) {*/
+/*    .rotating {*/
+/*        animation: none !important;*/
+/*    }*/
+/*    .rotating:hover {*/
+/*        height: auto !important;*/
+/*    }*/
+/*}*/
 
-.rotating:hover {
-    /* HEIGHT AFFECTS ROTATION RADIUS */
-    height: 4.2rem;
-    display:inline-block;
-    color: turquoise;
-}
-@keyframes rotate {
-    from {transform:rotate(0deg); }
-    to {transform:rotate(360deg); }
-}
+/*.rotating:hover {*/
+/*    !* HEIGHT AFFECTS ROTATION RADIUS *!*/
+/*    height: 4.2rem;*/
+/*    display:inline-block;*/
+/*    color: turquoise;*/
+/*}*/
+/*@keyframes rotate {*/
+/*    from {transform:rotate(0deg); }*/
+/*    to {transform:rotate(360deg); }*/
+/*}*/
 
-.rotating {
-    transform-origin: center center;
-    animation-name: rotate;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
+/*.rotating {*/
+/*    transform-origin: center center;*/
+/*    animation-name: rotate;*/
+/*    animation-duration: 1.5s;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-timing-function: linear;*/
+/*}*/
 
 /*************************
   ARTIST DIRECTORY CARDS
@@ -68,7 +68,7 @@ body {
 
 .card {
     background-color: black;
-    color: white;
+    color: #dddddd;
 }
 
 @media screen and (max-width: 450px) {
@@ -81,8 +81,38 @@ body {
     }
 }
 
-h5 {
-    padding-bottom: .4em;
+img {
+    width: 300px;
+    height: 300px;
+}
+
+#name {
+    font-size: 2.2em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#shop {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+#specialties {
+    color: #7fc6c4;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.icons {
+    width: 35px;
+    height: 35px;
+}
+
+span {
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 
@@ -95,16 +125,13 @@ a {
 }
 
 a:link {
-    color: turquoise;
+    color: #7fc6c4;
 }
 
 a:visited {
-    color: turquoise;
+    color: #7fc6c4;
 }
 
-a:hover {
-    color: hotpink;
-}
 
 
 /***********
@@ -116,6 +143,6 @@ footer {
     margin-bottom: 2em;
 }
 
-#githubIcon {
-    padding: 0 10em;
-}
+/*#githubIcon {*/
+/*    padding: 0 10em;*/
+/*}*/
