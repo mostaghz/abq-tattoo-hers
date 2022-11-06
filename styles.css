@@ -20,6 +20,10 @@ body {
     background-repeat: no-repeat;
 }
 
+#silentH:hover {
+    color: #7fc6c4;
+}
+
 /*********************
   SPINNING ASTERISK
 *********************/
@@ -110,7 +114,7 @@ img {
     height: 35px;
 }
 
-span {
+#iconPadding {
     padding-right: 1em;
     padding-left: 1em;
 }
