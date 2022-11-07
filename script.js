@@ -29,9 +29,9 @@ let artists = [
         alt: 'rainbow logo of a fox head',
         name: 'FOX RICHARDS',
         instagram: '<a href="https://www.instagram.com/fox_richards/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Foxs account"/></a>',
-        shop: '',
+        shop: '<a href="https://www.foxrichards.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Foxs personal site"/></a>',
         shopName: 'Coven Studio',
-        booking: '<a href="https://www.foxrichards.com/" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Foxs booking site"/></a>',
+        booking: '<a href="https://www.foxrichards.com/booking" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Foxs booking site"/></a>',
         specialties: ['Black and Gray Realism mixed with Blackwork and Geometric'],
     },
     {

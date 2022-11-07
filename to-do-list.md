@@ -6,7 +6,7 @@
 ### header?
 ~~- drop down nav bar that links to specific artist?~~
   ~~- make sticky top~~ 
-  - dropdown menu gives horizontal scroll...
+  ~~- dropdown menu gives horizontal scroll...~~
   - make transparent-ish when scrolling
   - fix bar color, text/hover text colors, dropdown menu color, etc
   ~~- need to move artist drop down to right side... justify-text-end, text-end, ml-auto havent' worked~~
