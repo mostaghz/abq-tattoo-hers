@@ -7,6 +7,16 @@ body {
     color: #dddddd;
 }
 
+
+/************
+   NAV BAR
+************/
+
+/*nav {*/
+/*    background: black !important;*/
+/*}*/
+
+
 /*****************
    HEADER IMAGE
 *****************/
@@ -119,10 +129,14 @@ a {
 }
 
 a:link {
-    color: #7fc6c4;
+    color: #dddddd;
 }
 
 a:visited {
+    color: #dddddd;
+}
+
+a:hover {
     color: #7fc6c4;
 }
 

@@ -2,13 +2,15 @@
 
 ### body
 - add fonts
-- change black background color to darker gray so it's not too intense??
 
 ### header?
-- drop down nav bar that links to specific artist?
-  - need to move artist drop down to right side... justify-text-end, text-end, ml-auto havent' worked
-- sticky button that takes users back to top
-- add better background image?
+~~- drop down nav bar that links to specific artist?~~
+  ~~- make sticky top~~ 
+  - dropdown menu gives horizontal scroll...
+  - make transparent-ish when scrolling
+  - fix bar color, text/hover text colors, dropdown menu color, etc
+  ~~- need to move artist drop down to right side... justify-text-end, text-end, ml-auto havent' worked~~
+- add better background image? video?
 
 
 ### artist directory
@@ -22,7 +24,9 @@
 ~~- add space between image and h1 when vertically stacking in mobile~~
 ~~- write new code (for each?) to spit out specialties array~~
   ~~- reduce code (initially for bullet points) seems to be causing horiozontal scroll... maybe for each will help...~~
+- figure out how to get two cards on same line... NOTHING HAS WORKED SO FAR
+- resize images (300x300) and add to images/artists directory
 
 ### footer icons
-- replace? githib negative space is actually unclickable negative space
+~~- replace? githib negative space is actually unclickable negative space~~
 ~~- change colors (hover too?) to match artist directory links~~

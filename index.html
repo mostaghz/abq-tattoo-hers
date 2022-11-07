@@ -10,32 +10,33 @@
 <body onload="handleLoadEvent()">
 
     <!-- NAV BAR -->
-    <!-- took out navbar-expand-lg from <nav> to have hamburger icon on desktop/prevent artist names from junking up navbar... PUT IT BACK IN just to see... can't decide what I like more -->
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark text-white">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Abq Tattoo(h)ers</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">Abq Tatto(h)ers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Artists</a>
-                        <ul class="dropdown-menu">
-                            <!-- internally linking to each artist section... make sure the remove spaces code is in here... see js-->
-                            <li><a class="dropdown-item" href="#ARIANASHELTON">Arianna Shelton</a></li>
-                            <li><a class="dropdown-item" href="#CHELSEYMOORE">Chelsey Moore</a></li>
-                            <li><a class="dropdown-item" href="#FOXRICHARDS">Fox Richards</a></li>
-                            <li><a class="dropdown-item" href="#GINAMARIE">Gina Marie</a></li>
-                            <li><a class="dropdown-item" href="#ISHALUZ">Isha Luz</a></li>
-                            <li><a class="dropdown-item" href="#KORIMARIE">Kori Marie</a></li>
-                            <li><a class="dropdown-item" href="#MAGGIEELENA">Maggie Elena</a></li>
-                            <li><a class="dropdown-item" href="#NICOLE">Nicole</a></li>
-                            <li><a class="dropdown-item" href="#REINAPLANT">Reina Plant</a></li>
-                            <li><a class="dropdown-item" href="#SYD">Syd</a></li>
-                        </ul>
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Artists</a>
+                            <ul class="dropdown-menu">
+                                <!-- internally linking to each artist section... make sure the remove spaces code is in here... see js-->
+                                <li><a class="dropdown-item" href="#ARIANASHELTON">Arianna Shelton</a></li>
+                                <li><a class="dropdown-item" href="#CHELSEYMOORE">Chelsey Moore</a></li>
+                                <li><a class="dropdown-item" href="#FOXRICHARDS">Fox Richards</a></li>
+                                <li><a class="dropdown-item" href="#GINAMARIE">Gina Marie</a></li>
+                                <li><a class="dropdown-item" href="#ISHALUZ">Isha Luz</a></li>
+                                <li><a class="dropdown-item" href="#KORIMARIE">Kori Marie</a></li>
+                                <li><a class="dropdown-item" href="#MAGGIEELENA">Maggie Elena</a></li>
+                                <li><a class="dropdown-item" href="#NICOLE">Nicole</a></li>
+                                <li><a class="dropdown-item" href="#REINAPLANT">Reina Plant</a></li>
+                                <li><a class="dropdown-item" href="#SYD">Syd</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
