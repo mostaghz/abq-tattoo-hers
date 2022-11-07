@@ -133,15 +133,12 @@ function handleLoadEvent () {
             return (
                 `${artistDirectory}
                     <!-- .name.replace is for internal links to navigate artist directory -->
-                    <div class="card mt-5 py-5" id="${currentDataElement.name.replace(/\s/g, '')}">
-                        <div class="row row-cols-1 row-cols-md-2">
-<!--                            <div class="col-md-3">-->
-<!--                            -->
-<!--                            </div>-->
-                            <div class="col-md-3 text-center">
+                    <div class="card col-md-6 mt-5 py-5" id="${currentDataElement.name.replace(/\s/g, '')}">
+                        <div class="row">
+                            <div class="col-md-6 text-center">
                                 <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid border border-light">
                             </div>
-                            <div class="col-md-3 card-alignment">
+                            <div class="col-md-6 card-alignment">
                                 <p class="card-text mt-2" id="name">${currentDataElement.name}</p>
                                 <p class="card-text" id="shop">${currentDataElement.shopName}</p>
                                 <!-- joins values as string separated by comma and space -->
@@ -149,9 +146,6 @@ function handleLoadEvent () {
                                 <!-- putting section titles here (Instagram:) to keep array values as data only -->
                                 <p class="card-text">${currentDataElement.instagram} <span id="iconPadding">${currentDataElement.shop}</span> ${currentDataElement.booking}</p>
                             </div>
-<!--                            <div class="col-md-3">-->
-<!--                            -->
-<!--                            </div>-->
                         </div>
                     </div>`
             )
