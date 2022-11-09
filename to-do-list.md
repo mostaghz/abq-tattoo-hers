@@ -1,15 +1,19 @@
 # to-do list
 
 ### body
-- add fonts
+~~- add fonts~~
 
 ### header?
 ~~- drop down nav bar that links to specific artist?~~
   ~~- make sticky top~~ 
   ~~- dropdown menu gives horizontal scroll...~~
   - make transparent-ish when scrolling
-  - fix bar color, text/hover text colors, dropdown menu color, etc
-  ~~- need to move artist drop down to right side... justify-text-end, text-end, ml-auto havent' worked~~
+  - fix:
+    - bar color
+    - dropdown menus background color
+    - text/hover text colors
+    - hamburger icon color?
+    ~~- need to move artist drop down to right side... justify-text-end, text-end, ml-auto havent' worked~~
 - add better background image? video?
 
 
