@@ -15,7 +15,7 @@
 let artists = [
     // instagram, shopIcon, and booking are all hyperlinked icons
     {
-        img: 'images/chelsey-moore-square-400.jpg',
+        img: 'images/artists/chelsey-moore.jpg',
         alt: 'Chelsey sitting in her tattooing space',
         name: 'CHELSEY MOORE',
         instagram: '<a href="https://www.instagram.com/cmoore04/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Chelseys account"/></a>',
@@ -25,7 +25,7 @@ let artists = [
         specialties: ['Color Illustrative', 'Color Realism'],
     },
     {
-        img: 'images/fox-richards-square-400.jpg',
+        img: 'images/artists/fox-richards.jpg',
         alt: 'rainbow logo of a fox head',
         name: 'FOX RICHARDS',
         instagram: '<a href="https://www.instagram.com/fox_richards/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Foxs account"/></a>',
@@ -35,7 +35,7 @@ let artists = [
         specialties: ['Black and Gray Realism mixed with Blackwork and Geometric'],
     },
     {
-        img: 'images/arianna-shelton-square-400.jpg',
+        img: 'images/artists/arianna-shelton.jpg',
         alt: 'close up of Ariannas face',
         name: 'ARIANNA SHELTON',
         instagram: '<a href="https://www.instagram.com/weirdmullet/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Ariannas account"/></a>',
@@ -45,7 +45,7 @@ let artists = [
         specialties: ['Black and Gray/Color', 'Classical Art', 'Flora and Fauna', 'Illustrative Fine Line'],
     },
     {
-        img: 'images/maggie-elena-square-400.jpg',
+        img: 'images/artists/maggie-elena.jpg',
         alt: 'Maggie Elena',
         name: 'MAGGIE ELENA',
         instagram: '<a href"https://www.instagram.com/maggie.elena/?hl=en"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Maggies account"/></a>',
@@ -55,7 +55,7 @@ let artists = [
         specialties: ['Heavy Blackwork'],
     },
     {
-        img: 'images/gina-marie-400-square.jpg',
+        img: 'images/artists/gina-marie.jpeg',
         name: 'GINA MARIE',
         instagram: '<a href="https://www.instagram.com/ginamarietattoo/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Ginas account"/></a>',
         shop: '<a href="https://www.highhandstattoo.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to High Hands Tattoo shop site"/></a>',
@@ -64,7 +64,7 @@ let artists = [
         specialties: ['Illustrative Folk Art with Traditional roots'],
     },
     {
-        img: 'images/kori-marie-square-400.jpg',
+        img: 'images/artists/kori-marie.jpg',
         alt: 'Kori Marie sitting outside',
         name: 'KORI MARIE',
         instagram: '<a href="https://www.instagram.com/korixmarie/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Koris account"/></a>',
@@ -74,7 +74,7 @@ let artists = [
         specialties: ['American Traditional'],
     },
     {
-        img: 'images/image-coming-soon-square-400.jpg',
+        img: 'images/artists/isha-luz.jpg',
         name: 'ISHA LUZ',
         instagram: '<a href="https://www.instagram.com/ishaluz.tattoos/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Ishas account"/></a>',
         shop: '<a href="https://www.cheekymonkeyabq.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Cheeky Monkey Tattoos shop site"/></a>',
@@ -83,7 +83,7 @@ let artists = [
         specialties: ['Anime', 'Black and Gray/Color Illustrative', 'Fine Line', 'Neotraditional'],
     },
     {
-        img: 'images/syd-square-400.jpg',
+        img: 'images/artists/syd.jpg',
         name: 'SYD',
         instagram: '<a href="https://www.instagram.com/squidartificial/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Syds account"/></a>',
         shop: '<a href="https://www.cheekymonkeyabq.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Cheeky Monkey Tattoos shop site"/></a>',
@@ -92,7 +92,7 @@ let artists = [
         specialties: ['*Apprentice with interests in Black and Gray', 'Neotraditional', 'Traditional'],
     },
     {
-        img: 'images/image-coming-soon-square-400.jpg',
+        img: 'images/artists/image-coming-soon.png',
         name: 'REINA PLANT',
         instagram: '<a href="https://www.instagram.com/reina.plant/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Reinas account"/></a>',
         shop: '<a href="https://www.allisonetattoo.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to All is One Tattoos shop site"/></a>',
@@ -101,7 +101,7 @@ let artists = [
         specialties: ['American Traditional'],
     },
     {
-        img: 'images/nicole-square-400.jpg',
+        img: 'images/artists/nicole.jpg',
         name: 'NICOLE',
         instagram: '<a href="https://www.instagram.com/romatra_/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Nicoles account"/></a>',
         shop: '<a href="https://blackalchemystudio.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Black Alchemys shop site"/></a>',

@@ -23,8 +23,8 @@
 ~~- center p tags after breaking for mobile view~~
 ~~- add space between image and h1 when vertically stacking in mobile~~
 ~~- write new code (for each?) to spit out specialties array~~
-  ~~- reduce code (initially for bullet points) seems to be causing horiozontal scroll... maybe for each will help...~~
-- figure out how to get two cards on same line... NOTHING HAS WORKED SO FAR
+  ~~- reduce code (initially for bullet points) seems to be causing horizontal scroll... maybe for each will help...~~
+~~- figure out how to get two cards on same line... NOTHING HAS WORKED SO FAR~~
 - resize images (300x300) and add to images/artists directory
 
 ### footer icons
