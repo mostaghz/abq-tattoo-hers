@@ -133,13 +133,13 @@ function handleLoadEvent () {
             return (
                 `${artistDirectory}
                     <!-- .name.replace is for internal links to navigate artist directory -->
-                    <div class="card col-md-6 mt-5 py-5" id="${currentDataElement.name.replace(/\s/g, '')}">
+                    <div class="card col-md-6 mt-4 py-5 gx-5" id="${currentDataElement.name.replace(/\s/g, '')}">
                         <div class="row">
                             <div class="col-md-6 text-center">
                                 <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid border border-light">
                             </div>
                             <div class="col-md-6 card-alignment">
-                                <p class="card-text mt-2" id="name">${currentDataElement.name}</p>
+                                <p class="card-text" id="name">${currentDataElement.name}</p>
                                 <p class="card-text" id="shop">${currentDataElement.shopName}</p>
                                 <!-- joins values as string separated by comma and space -->
                                 <p class="card-text" id="specialties">${currentDataElement.specialties.join(', ')}
