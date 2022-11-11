@@ -14,7 +14,7 @@
     - text/hover text colors
     - hamburger icon color?
     ~~- need to move artist drop down to right side... justify-text-end, text-end, ml-auto havent' worked~~
-- add better background image? video?
+~~- add better background image? video?~~
 
 
 ### artist directory
