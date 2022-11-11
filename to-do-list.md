@@ -33,7 +33,7 @@
 ~~- add gutter or gaps between cards in desktop~~
 - check break points -- looks weird between desktop and mobile--- work with media query?
 - decrease margin between cards in mobile
-- fix spaces between text lines AND make text flush with top of image
+~~- fix spaces between text lines AND make text flush with top of image~~
 
 ### footer icons
 ~~- replace? githib negative space is actually unclickable negative space~~

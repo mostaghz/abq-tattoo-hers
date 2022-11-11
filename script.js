@@ -136,7 +136,7 @@ function handleLoadEvent () {
                     <div class="card col-md-6 mt-4 py-5 gx-5" id="${currentDataElement.name.replace(/\s/g, '')}">
                         <div class="row">
                             <div class="col-md-6 text-center">
-                                <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid border border-light">
+                                <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid">
                             </div>
                             <div class="col-md-6 card-alignment">
                                 <p class="card-text" id="name">${currentDataElement.name}</p>
