@@ -18,18 +18,28 @@ body {
 /*}*/
 
 
-/*****************
-   HEADER IMAGE
-*****************/
+/************
+   HEADER
+************/
 
-.masthead {
-    height: 80vh;
-    /*min-height: 500px;*/
-    background-image: url('images/femaleTattooArtistBackground.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 3.5em;
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+}
+
+video {
+    position: absolute;
+    z-index: -1;
+    /* top, left, and transform finds/stays on the center of the video regardless of screen size */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
 }
 
 #silentH:hover {
@@ -111,11 +121,11 @@ a {
 }
 
 a:link {
-    color: #dddddd;
+    color: black;
 }
 
 a:visited {
-    color: #dddddd;
+    color: black;
 }
 
 a:hover {
