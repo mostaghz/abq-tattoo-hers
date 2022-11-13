@@ -141,7 +141,7 @@ function handleLoadEvent () {
                 `${artistDirectory}
                     <!-- .name.replace is for nav bar to internally link to artist directory -->
                     <!-- class artributes are bootsrap styles -->
-                    <div class="card col-lg-6 mt-4 py-5 gx-5" id="${currentDataElement.name.replace(/\s/g, '')}">
+                    <div class="card col-lg-6 py-5 gx-5" id="${currentDataElement.name.replace(/\s/g, '')}">
                         <div class="row">
                             <div class="col-lg-6 text-center">
                                 <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid">

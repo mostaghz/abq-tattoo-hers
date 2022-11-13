@@ -69,11 +69,6 @@ video {
     .card-alignment {
         text-align: center;
     }
-
-    /* decrease x space between cards */
-    .card {
-        margin-bottom: -3.5em;
-    }
 }
 
 /* this fixes the weird breakpoint between lg and md screens - doesn't work without the bang */
