@@ -18,8 +18,6 @@ body {
 /*}*/
 
 
-
-
 /************
    HEADER
 ************/
@@ -36,6 +34,7 @@ body {
 }
 
 video {
+    /* position and z-index pushes video to background and allows text to sit on top */
     position: absolute;
     z-index: -1;
     /* top, left, and transform finds/stays on the center of the video regardless of screen size */
@@ -64,7 +63,6 @@ video {
 /* media query for mobile layout */
 @media screen and (max-width: 450px) {
     img {
-        margin-top: -1em;
         margin-bottom: 2em;
     }
 
@@ -72,44 +70,46 @@ video {
         text-align: center;
     }
 
+    /* decrease x space between cards */
     .card {
-        margin-bottom: -3em;
-    }
-
-    #iconPadding {
-        margin-top: 2em;
+        margin-bottom: -3.5em;
     }
 }
 
 #name {
     font-size: 2.2em;
-    margin-top: -.4em;
+    /* makes name even with top of artist image */
+    line-height: .75em;
 }
 
 #shop {
     font-size: 1.5em;
-    margin-top: -1em;
+    /* brings shop name closer to artist name */
+    line-height: .35em;
 }
 
 #specialties {
     color: #7fc6c4;
     font-size: 1em;
     font-style: italic;
-    margin-top: -1em;
+    /* brings specialties closer to shop name - fyi also impact those with specialties breaking to second line */
+    line-height: 1em;
 }
 
 #iconPadding {
     padding-right: .8em;
     padding-left: .8em;
+    /* brings artist icons closer to specialties */
+    line-height: 1em;
 }
 
-/* images are already sized to 35x35, but this needs to stay because of the img styling below */
+/* artist icons are already sized to 35x35, but this needs to stay because of the img styling below */
 .icons {
     width: 35px;
     height: 35px;
 }
 
-/* artist images were too blurry after being cropped and resized in 3rd party programs -- setting this style to ensure consistent sizing*/
+/* artist images were too blurry after being cropped and resized in 3rd party programs -- setting this style to ensure consistent sizing */
 img {
     width: 350px;
     height: 350px;
@@ -120,22 +120,10 @@ img {
   LINKS
 *********/
 
-a {
-    text-decoration: none;
-}
-
+/* overriding the grey navbar dropdown menu */
 a:link {
     color: black;
 }
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: #7fc6c4;
-}
-
 
 
 /***********
@@ -143,8 +131,8 @@ a:hover {
 ***********/
 
 footer {
-    margin-top: 7em;
-    margin-bottom: 2em;
+    margin-top: 6em;
+    margin-bottom: 1em;
 }
 
 .footerIcons {

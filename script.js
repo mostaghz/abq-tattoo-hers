@@ -41,7 +41,7 @@ let artists = [
     {
         img: 'images/artists/arianna-shelton.jpg',
         alt: 'close up of Ariannas face',
-        name: 'ARIANNA SHELTON',
+        name: 'ARI SHELTON',
         instagram: '<a href="https://www.instagram.com/weirdmullet/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Ariannas account"/></a>',
         shop: '<a href="https://www.milagrotattoo.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Milagro Tattoos shop site"/></a>',
         shopName: 'Milagro Tattoo',
