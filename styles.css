@@ -60,8 +60,8 @@ video {
     color: #dddddd;
 }
 
-/* media query for mobile layout */
-@media screen and (max-width: 450px) {
+/* media query for mobile and small tablet layout */
+@media screen and (max-width: 991px) {
     img {
         margin-bottom: 2em;
     }
@@ -73,6 +73,19 @@ video {
     /* decrease x space between cards */
     .card {
         margin-bottom: -3.5em;
+    }
+}
+
+/* this fixes the weird breakpoint between lg and md screens - doesn't work without the bang */
+@media screen and (min-width: 992px) and (max-width: 1399px) {
+    #name {
+        /* makes name even with top of artist image */
+        line-height: .8em !important;
+    }
+
+    #shop {
+        /* brings shop name closer to artist name */
+        line-height: .8em !important;
     }
 }
 
