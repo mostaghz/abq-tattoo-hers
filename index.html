@@ -13,74 +13,79 @@
 <body onload="handleLoadEvent()">
 
     <!-- NAV BAR -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-light text-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Abq Tattoo(h)ers</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Artists</a>
-                            <!-- dropdown-menu-end prevents horizontal scroll in desktop -->
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <!-- internally linking to each artist section... make sure the remove spaces code is in here... see js-->
-                                <li><a class="dropdown-item" href="#ARISHELTON">Arianna Shelton</a></li>
-                                <li><a class="dropdown-item" href="#CHELSEYMOORE">Chelsey Moore</a></li>
-                                <li><a class="dropdown-item" href="#FOXRICHARDS">Fox Richards</a></li>
-                                <li><a class="dropdown-item" href="#GINAMARIE">Gina Marie</a></li>
-                                <li><a class="dropdown-item" href="#ISHALUZ">Isha Luz</a></li>
-                                <li><a class="dropdown-item" href="#KORIMARIE">Kori Marie</a></li>
-                                <li><a class="dropdown-item" href="#MAGGIEELENA">Maggie Elena</a></li>
-                                <li><a class="dropdown-item" href="#NICOLE">Nicole</a></li>
-                                <li><a class="dropdown-item" href="#REINAPLANT">Reina Plant</a></li>
-                                <li><a class="dropdown-item" href="#SYD">Syd</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+    <div>
+        <nav class="navbar sticky-top navbar-expand-lg bg-light text-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Abq Tattoo(h)ers</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Artists</a>
+                                <!-- dropdown-menu-end prevents horizontal scroll in desktop -->
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <!-- internally linking to each artist section... make sure the remove spaces code is in here... see js-->
+                                    <li><a class="dropdown-item" href="#ARISHELTON">Arianna Shelton</a></li>
+                                    <li><a class="dropdown-item" href="#CHELSEYMOORE">Chelsey Moore</a></li>
+                                    <li><a class="dropdown-item" href="#FOXRICHARDS">Fox Richards</a></li>
+                                    <li><a class="dropdown-item" href="#GINAMARIE">Gina Marie</a></li>
+                                    <li><a class="dropdown-item" href="#ISHALUZ">Isha Luz</a></li>
+                                    <li><a class="dropdown-item" href="#KORIMARIE">Kori Marie</a></li>
+                                    <li><a class="dropdown-item" href="#MAGGIEELENA">Maggie Elena</a></li>
+                                    <li><a class="dropdown-item" href="#NICOLE">Nicole</a></li>
+                                    <li><a class="dropdown-item" href="#REINAPLANT">Reina Plant</a></li>
+                                    <li><a class="dropdown-item" href="#SYD">Syd</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <!-- HEADER VIDEO, TITLE, AND TAG LINE -->
 
-    <div class="hero">
-        <video autoplay loop muted playsinline>
-            <source src="images/header-video.mp4" type="video/mp4">
-        </video>
-        <div class="row h-100 align-items-center">
-            <div class="col-12 text-center">
-                <h1 class="display-1"><strong>ABQ TATTOO<span id="silentH">(H)</span>ERS</strong></h1>
-                <p class="lead">A growing resource featuring Albuquerque's female tattoo artists</p>
+    <header>
+        <div class="hero">
+            <video autoplay loop muted playsinline>
+                <source src="images/header-video.mp4" type="video/mp4">
+            </video>
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="display-1"><strong>ABQ TATTOO<span id="silentH">(H)</span>ERS</strong></h1>
+                    <p class="lead">A growing resource featuring Albuquerque's female tattoo artists</p>
+                </div>
             </div>
         </div>
-    </div>
+    </header>
 
     <!-- ARTIST DIRECTORY-->
-    <!-- script.js: array of objects thrown into bootstrap cards and looped through -->
-    <section>
+    <!-- see script.js: array of objects thrown into bootstrap cards and looped through -->
+    <div>
         <div class="container">
             <div id="target" class="row row-cols-1 g-3">
 
             </div>
         </div>
-    </section>
+    </div>
 
     <!-- FOOTER WITH MY CONTACT LINKS -->
     <footer class="text-center">
         <p>Website designed and built by Alex Mostaghni</p>
         <!-- email -->
-        <a href="mailto:mostaghni@live.com"><img src="images/icons/envelope-icon.png" class="footerIcons" alt="white envelope icon linking to Alexs email"></a>
+        <a href="mailto:mostaghni@live.com" target="_blank"><img src="images/icons/envelope-icon.png" class="footerIcons" alt="white envelope icon linking to Alexs email"></a>
         <!-- GitHub -->
-        <a href="https://github.com/mostaghz" id="githubIcon"><img src="images/icons/github-icon.png" class="footerIcons" alt="white GitHub icon linking to Alexs profile"></a>
+        <a href="https://github.com/mostaghz" id="githubIcon" target="_blank"><img src="images/icons/github-icon.png" class="footerIcons" alt="white GitHub icon linking to Alexs profile"></a>
         <!-- LinkedIn -->
-        <a href="https://www.linkedin.com/in/alex-mostaghni-040216250/"><img src="images/icons/linkedin-icon-2.png" class="footerIcons" alt="white LinkedIn icon linking to Alexs profile"></a>
+        <a href="https://www.linkedin.com/in/alex-mostaghni/" target="_blank"><img src="images/icons/linkedin-icon-2.png" class="footerIcons" alt="white LinkedIn icon linking to Alexs profile"></a>
     </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <script src="script.js"></script>
+
 </body>
 </html>

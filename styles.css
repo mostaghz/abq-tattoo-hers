@@ -30,7 +30,7 @@ body {
     /* overflow prevents video from spilling into artist directory section */
     overflow: hidden;
     min-height: 75vh;
-    margin-bottom: 4em;
+    margin-bottom: 3em;
 }
 
 video {
