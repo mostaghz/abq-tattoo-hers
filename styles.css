@@ -13,10 +13,20 @@ body {
    NAV BAR
 ************/
 
-/*nav {*/
-/*    background: black !important;*/
-/*}*/
+.navbar {
+    background: #dddddd;
+    color: black;
+}
 
+.dropdown-menu {
+    background-color: #dddddd;
+}
+
+/* bootstrap uses background color for dropdown menu hover, so it needed to be removed */
+.dropdown-menu > li > a:hover {
+    background-image: none;
+    background-color: #7fc6c4;
+}
 
 /************
    HEADER
