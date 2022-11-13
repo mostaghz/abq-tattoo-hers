@@ -1,24 +1,27 @@
-// EMPTY OBJECT TEMPLATE FOR WHEN NEW ARTISTS ARE ADDED
+// EMPTY OBJECT TEMPLATE (for when new artists are added)
 
 /*{
     img: '',
+    alt: '',
     name: '',
     instagram: '<a href="">@</a>',
     shop: '<a href="">/a>',
+    shopName: '',
     booking: '<a href=""></a>',
     specialties: [],
-},*/
+}*/
 
 
 // ARTISTS ARRAY
 
 let artists = [
-    // instagram, shopIcon, and booking are all hyperlinked icons
+    // instagram, shop, and booking are all hyperlinked icons - target="_blank" makes them open in new tab
     {
         img: 'images/artists/chelsey-moore.jpg',
         alt: 'Chelsey sitting in her tattooing space',
         name: 'CHELSEY MOORE',
         instagram: '<a href="https://www.instagram.com/cmoore04/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Chelseys account"/></a>',
+        // archetype's site is unsecure, so link won't work if it's https - will update if things change
         shop: '<a href="http://archetypetattoo.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Archetype Tattoos shop site"/></a>',
         shopName: 'Archetype Tattoo Studio',
         booking: '<a href="https://chelseymooretattoo.wordpress.com/" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Chelseys booking site"/></a>',
@@ -29,6 +32,7 @@ let artists = [
         alt: 'rainbow logo of a fox head',
         name: 'FOX RICHARDS',
         instagram: '<a href="https://www.instagram.com/fox_richards/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Foxs account"/></a>',
+        // coven doesn't have its own site, so linking to fox's site instead
         shop: '<a href="https://www.foxrichards.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Foxs personal site"/></a>',
         shopName: 'Coven Studio',
         booking: '<a href="https://www.foxrichards.com/booking" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Foxs booking site"/></a>',
@@ -111,7 +115,9 @@ let artists = [
     },
 ]
 
-// SORTS ARTISTS BY NAME
+
+// SORT ARTISTS BY NAME
+
 function compare( a, b ) {
     if (a.name < b.name){
         return -1;
@@ -125,31 +131,33 @@ function compare( a, b ) {
 artists.sort(compare);
 
 
-// LOOPING T0 THE DOM
+// LOOPING CARDS T0 THE DOM
+
 function handleLoadEvent () {
     document.getElementById('target').innerHTML = artists.reduce(
-        // WHATEVER THE FUNCTION RETURNS WILL BE PUT INTO artistDirectory
+        // whatever the function returns will be put into artistDirectory and looped through via currentDataElement
         (artistDirectory, currentDataElement) => {
             return (
                 `${artistDirectory}
-                    <!-- .name.replace is for internal links to navigate artist directory -->
+                    <!-- .name.replace is for nav bar to internally link to artist directory -->
+                    <!-- class artributes are bootsrap stylings -->
                     <div class="card col-md-6 mt-4 py-5 gx-5" id="${currentDataElement.name.replace(/\s/g, '')}">
                         <div class="row">
                             <div class="col-md-6 text-center">
                                 <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid">
                             </div>
                             <div class="col-md-6 card-alignment">
+                                <!-- ids are for css stylings -->
                                 <p class="card-text" id="name">${currentDataElement.name}</p>
                                 <p class="card-text" id="shop">${currentDataElement.shopName}</p>
                                 <!-- joins values as string separated by comma and space -->
-                                <p class="card-text" id="specialties">${currentDataElement.specialties.join(', ')}
-                                <!-- putting section titles here (Instagram:) to keep array values as data only -->
+                                <p class="card-text" id="specialties">${currentDataElement.specialties.join(', ')}</p>
                                 <p class="card-text">${currentDataElement.instagram} <span id="iconPadding">${currentDataElement.shop}</span> ${currentDataElement.booking}</p>
                             </div>
                         </div>
                     </div>`
             )
-            // KEEP EMPTY '' OR THINGS FALL APART
+            // keep '' or function falls apart
         }, ''
     )
 }

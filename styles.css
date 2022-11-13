@@ -29,6 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    /* overflow prevents video from spilling into artist directory section */
     overflow: hidden;
     min-height: 75vh;
     margin-bottom: 4em;
@@ -46,11 +47,8 @@ video {
 }
 
 #silentH:hover {
+    /* color will change in mobile when tapped */
     color: #7fc6c4;
-}
-
-h1 {
-    font-family: 'Outfit', sans-serif;
 }
 
 
@@ -63,6 +61,7 @@ h1 {
     color: #dddddd;
 }
 
+/* media query for mobile layout */
 @media screen and (max-width: 450px) {
     img {
         margin-top: -1em;
@@ -104,7 +103,7 @@ h1 {
     padding-left: .8em;
 }
 
-/*images are already sized to 35x35, but this needs to stay because of the img styling below */
+/* images are already sized to 35x35, but this needs to stay because of the img styling below */
 .icons {
     width: 35px;
     height: 35px;

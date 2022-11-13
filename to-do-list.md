@@ -38,3 +38,8 @@
 ### footer icons
 ~~- replace? githib negative space is actually unclickable negative space~~
 ~~- change colors (hover too?) to match artist directory links~~
+
+### general
+- clean up code
+  - add comments
+  - no wetness... lol (dry)
