@@ -52,7 +52,7 @@ let artists = [
         img: 'images/artists/maggie-elena.jpg',
         alt: 'Maggie Elena wearing black sweater with one shoulder exposed',
         name: 'MAGGIE ELENA',
-        instagram: '<a href"https://www.instagram.com/maggie.elena/?hl=en"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Maggies account"/></a>',
+        instagram: '<a href="https://www.instagram.com/maggie.elena/?hl=en"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Maggies account"/></a>',
         shop: '<a href="https://blackalchemystudio.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Black Alchemy shop site"/></a>',
         shopName: 'Black Alchemy',
         booking: '<a href="mailto:maggieelenatattoo@gmail.com" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Maggies email"/></a>',
@@ -73,6 +73,7 @@ let artists = [
         alt: 'Kori Marie sitting outside and smiling with her head resting on her knuckles',
         name: 'KORI MARIE',
         instagram: '<a href="https://www.instagram.com/korixmarie/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Koris account"/></a>',
+        //Cellardoor doesn't have a site, so linking their instagram instead
         shop: '<a href="https://www.instagram.com/cellardoorabq/?hl=en" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Cellardoor Collectives shop site"/></a>',
         shopName: 'Cellardoor Collective',
         booking: '<a href="mailto:korimarietattoo@gmail.com" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Koris email"/></a>',
@@ -85,7 +86,7 @@ let artists = [
         instagram: '<a href="https://www.instagram.com/ishaluz.tattoos/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Ishas account"/></a>',
         shop: '<a href="https://www.cheekymonkeyabq.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Cheeky Monkey Tattoos shop site"/></a>',
         shopName: 'Cheeky Monkey Tattoo',
-        booking: '<a href ="form.jotform.com/222216047476050" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Ishas booking form"/></a>',
+        booking: '<a href ="https://form.jotform.com/222216047476050" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Ishas booking form"/></a>',
         specialties: ['Anime', 'Black and Gray/Color Illustrative', 'Fine Line', 'Neotraditional'],
     },
     {
@@ -105,7 +106,7 @@ let artists = [
         instagram: '<a href="https://www.instagram.com/reina.plant/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Reinas account"/></a>',
         shop: '<a href="https://www.allisonetattoo.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to All is One Tattoos shop site"/></a>',
         shopName: 'All is One Tattoo',
-        booking: '<a href="mailto:korimarietattoo@gmail.com" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to All is One Tattoos shop email"/></a>',
+        booking: '<a href="mailto:allisonetattoo@gmail.com" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to All is One Tattoos shop email"/></a>',
         specialties: ['American Traditional'],
     },
     {
