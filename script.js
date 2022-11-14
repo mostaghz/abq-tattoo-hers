@@ -39,7 +39,7 @@ let artists = [
         specialties: ['Black and Gray Realism mixed with Blackwork and Geometric'],
     },
     {
-        img: 'images/artists/arianna-shelton.jpg',
+        img: 'images/artists/ari-shelton.jpg',
         alt: 'close up of Ariannas face',
         name: 'ARI SHELTON',
         instagram: '<a href="https://www.instagram.com/weirdmullet/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Ariannas account"/></a>',
@@ -87,8 +87,8 @@ let artists = [
         specialties: ['Anime', 'Black and Gray/Color Illustrative', 'Fine Line', 'Neotraditional'],
     },
     {
-        img: 'images/artists/syd.jpg',
-        name: 'SYD',
+        img: 'images/artists/syd-settecerri.jpg',
+        name: 'SYD SETTECERRI',
         instagram: '<a href="https://www.instagram.com/squidartificial/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Syds account"/></a>',
         shop: '<a href="https://www.cheekymonkeyabq.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Cheeky Monkey Tattoos shop site"/></a>',
         shopName: 'Cheeky Monkey Tattoo',
@@ -105,8 +105,8 @@ let artists = [
         specialties: ['American Traditional'],
     },
     {
-        img: 'images/artists/nicole.jpg',
-        name: 'NICOLE',
+        img: 'images/artists/nicole-sonobe.jpg',
+        name: 'NICOLE SONOBE',
         instagram: '<a href="https://www.instagram.com/romatra_/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Nicoles account"/></a>',
         shop: '<a href="https://blackalchemystudio.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Black Alchemys shop site"/></a>',
         shopName: 'Black Alchemy',
