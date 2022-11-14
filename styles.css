@@ -14,7 +14,16 @@ body {
 ************/
 
 .navbar {
-    background: #dddddd;
+    background-color: #dddddd;
+}
+
+/* navbar title */
+.navbar-brand:hover {
+    color: black;
+}
+
+/* dropdown menu title */
+.nav-link:hover {
     color: black;
 }
 
@@ -26,6 +35,10 @@ body {
 .dropdown-menu > li > a:hover {
     background-image: none;
     background-color: #7fc6c4;
+}
+
+.dropdown-menu > li > a:visited {
+    color: black;
 }
 
 /************
