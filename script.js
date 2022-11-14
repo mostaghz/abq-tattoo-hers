@@ -87,7 +87,7 @@ let artists = [
         shop: '<a href="https://www.cheekymonkeyabq.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Cheeky Monkey Tattoos shop site"/></a>',
         shopName: 'Cheeky Monkey Tattoo',
         booking: '<a href ="https://form.jotform.com/222216047476050" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Ishas booking form"/></a>',
-        specialties: ['Anime', 'Black and Gray/Color Illustrative', 'Fine Line', 'Neotraditional'],
+        specialties: ['Anime', 'Black and Gray/Color Illustrative', 'Neotraditional'],
     },
     {
         img: 'images/artists/syd-settecerri.jpg',
@@ -117,7 +117,7 @@ let artists = [
         shop: '<a href="https://blackalchemystudio.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Black Alchemys shop site"/></a>',
         shopName: 'Black Alchemy',
         booking: '<a href="mailto:romatratattoo@gmail.com" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Nicoles email"/></a>',
-        specialties: ['Blackwork', 'Illustrative', 'Geometric', 'Dotwork']
+        specialties: ['Blackwork', 'Dotwork', 'Geometric', 'Illustrative']
     },
 ]
 

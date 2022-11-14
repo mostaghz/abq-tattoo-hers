@@ -36,7 +36,11 @@ nav {
     background-color: #dddddd;
 }
 
-/* bootstrap apparently uses background image instead of color for dropdown menu hover... ugh */
+a:link {
+    color: black;
+}
+
+/* bootstrap apparently uses background image instead of color for dropdown menu hover...? */
 .dropdown-menu > li > a:hover {
     background-image: none;
     background-color: #7fc6c4;
@@ -149,16 +153,6 @@ video {
 img {
     width: 350px;
     height: 350px;
-}
-
-
-/*********
-  LINKS
-*********/
-
-/* overriding the grey navbar dropdown menu */
-a:link {
-    color: black;
 }
 
 
