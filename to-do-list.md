@@ -7,13 +7,12 @@
 ~~- drop down nav bar that links to specific artist?~~
   ~~- make sticky top~~ 
   ~~- dropdown menu gives horizontal scroll...~~
-  - start transparent then turn opaque when scrolling?
   - fix:
     ~~- bar color~~
     ~~- dropdown menus background color~~
-    - text/hover text colors
+    ~~- text/hover text colors~~
       ~~- background dropdown menu~~
-      - artists (it changes to something lighter... need it black)
+      ~~- artists (it changes to something lighter... need it black)~~
     - hamburger icon color?
     ~~- need to move artist drop down to right side... justify-text-end, text-end, ml-auto havent' worked~~
 ~~- add better background image? video?~~
@@ -42,6 +41,6 @@
 ~~- change colors (hover too?) to match artist directory links~~
 
 ### general
-- clean up code
+~~- clean up code~~
   ~~- add comments~~
-  - no wetness... lol (dry)
+  ~~- no wetness... lol (dry)~~

@@ -13,8 +13,9 @@
 <body onload="handleLoadEvent()">
 
     <!-- NAV BAR -->
-    <!-- w3 validator yells at me without leading div, but sticky-top in nav class stops working. keep sticky top in leading div -->
+    <!-- w3 validator is unhappy without leading div, but sticky-top in nav class stops working div is added. keep sticky top in leading div for it to work -->
     <div class="sticky-top">
+        <!-- removed bg-dark text-light to get css to work -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Abq Tattoo(h)ers</a>
@@ -28,7 +29,8 @@
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Artists</a>
                                 <!-- dropdown-menu-end prevents horizontal scroll in desktop -->
                                 <ul class="dropdown-menu dropdown-menu-end">
-                                    <!-- internally linking to each artist section... make sure the remove spaces code is in here... see js-->
+                                    <!-- internally linking to each artist section (original a tags in script.js) -->
+                                    <!-- webstorm throws warnings for these, but everything works -->
                                     <li><a class="dropdown-item" href="#ARISHELTON">Ari Shelton</a></li>
                                     <li><a class="dropdown-item" href="#CHELSEYMOORE">Chelsey Moore</a></li>
                                     <li><a class="dropdown-item" href="#FOXRICHARDS">Fox Richards</a></li>
@@ -52,11 +54,14 @@
 
     <header>
         <div class="hero">
+            <!-- must have autoplay, etc. for video to work -->
             <video autoplay loop muted playsinline>
                 <source src="images/header-video.mp4" type="video/mp4">
             </video>
+            <!-- keeps title and tag line centered -->
             <div class="row h-100 align-items-center">
                 <div class="col-12 text-center">
+                    <!-- wrapped (H) in span in order to grab it and add hover class -->
                     <h1 class="display-1"><strong>ABQ TATTOO<span id="silentH">(H)</span>ERS</strong></h1>
                     <p class="lead">A growing resource highlighting Albuquerque's female tattoo artists</p>
                 </div>

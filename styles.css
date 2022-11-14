@@ -9,20 +9,25 @@ body {
 }
 
 
-/************
-   NAV BAR
-************/
+/******************************************************************
+                            NAV BAR
+   everything in this section overrides default bootstrap styles
+******************************************************************/
+
+nav {
+    color: black;
+}
 
 .navbar {
     background-color: #dddddd;
 }
 
-/* navbar title */
+/* navbar title: Abq Tattoo(h)ers */
 .navbar-brand:hover {
     color: black;
 }
 
-/* dropdown menu title */
+/* dropdown menu title: Artists */
 .nav-link:hover {
     color: black;
 }
@@ -31,7 +36,7 @@ body {
     background-color: #dddddd;
 }
 
-/* bootstrap uses background color for dropdown menu hover, so it needed to be removed */
+/* bootstrap apparently uses background image instead of color for dropdown menu hover... ugh */
 .dropdown-menu > li > a:hover {
     background-image: none;
     background-color: #7fc6c4;

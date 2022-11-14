@@ -12,7 +12,7 @@
 }*/
 
 
-// ARTISTS ARRAY
+// ARTISTS ARRAY OF OBJECTS
 
 let artists = [
     // instagram, shop, and booking are all hyperlinked icons - target="_blank" makes them open in new tab
@@ -21,7 +21,7 @@ let artists = [
         alt: 'Chelsey sitting in her tattooing space',
         name: 'CHELSEY MOORE',
         instagram: '<a href="https://www.instagram.com/cmoore04/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Chelseys account"/></a>',
-        // archetype's site is unsecure, so link won't work if it's https - will update if things change
+        // Archetype's site is not secure - will update to https if it changes
         shop: '<a href="http://archetypetattoo.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Archetype Tattoos shop site"/></a>',
         shopName: 'Archetype Tattoo Studio',
         booking: '<a href="https://chelseymooretattoo.wordpress.com/" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Chelseys booking site"/></a>',
@@ -32,7 +32,7 @@ let artists = [
         alt: 'rainbow logo of a fox head',
         name: 'FOX RICHARDS',
         instagram: '<a href="https://www.instagram.com/fox_richards/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Foxs account"/></a>',
-        // coven doesn't have its own site, so linking to fox's site instead
+        // Coven doesn't have its own site, so linking to fox's site instead
         shop: '<a href="https://www.foxrichards.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Foxs personal site"/></a>',
         shopName: 'Coven Studio',
         booking: '<a href="https://www.foxrichards.com/booking" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Foxs booking site"/></a>',
@@ -40,7 +40,7 @@ let artists = [
     },
     {
         img: 'images/artists/ari-shelton.jpg',
-        alt: 'close up of Ariannas face',
+        alt: 'close up of Aris slightly smiling face',
         name: 'ARI SHELTON',
         instagram: '<a href="https://www.instagram.com/weirdmullet/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Ariannas account"/></a>',
         shop: '<a href="https://www.milagrotattoo.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Milagro Tattoos shop site"/></a>',
@@ -50,7 +50,7 @@ let artists = [
     },
     {
         img: 'images/artists/maggie-elena.jpg',
-        alt: 'Maggie Elena',
+        alt: 'Maggie Elena wearing black sweater with one shoulder exposed',
         name: 'MAGGIE ELENA',
         instagram: '<a href"https://www.instagram.com/maggie.elena/?hl=en"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Maggies account"/></a>',
         shop: '<a href="https://blackalchemystudio.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Black Alchemy shop site"/></a>',
@@ -60,6 +60,7 @@ let artists = [
     },
     {
         img: 'images/artists/gina-marie.jpeg',
+        alt: 'grainy/old-timey photo of Gina holding small items',
         name: 'GINA MARIE',
         instagram: '<a href="https://www.instagram.com/ginamarietattoo/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Ginas account"/></a>',
         shop: '<a href="https://www.highhandstattoo.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to High Hands Tattoo shop site"/></a>',
@@ -69,7 +70,7 @@ let artists = [
     },
     {
         img: 'images/artists/kori-marie.jpg',
-        alt: 'Kori Marie sitting outside',
+        alt: 'Kori Marie sitting outside and smiling with her head resting on her knuckles',
         name: 'KORI MARIE',
         instagram: '<a href="https://www.instagram.com/korixmarie/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Koris account"/></a>',
         shop: '<a href="https://www.instagram.com/cellardoorabq/?hl=en" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Cellardoor Collectives shop site"/></a>',
@@ -79,6 +80,7 @@ let artists = [
     },
     {
         img: 'images/artists/isha-luz.jpg',
+        alt: 'close up of Ishas face with her chin resting on her palm',
         name: 'ISHA LUZ',
         instagram: '<a href="https://www.instagram.com/ishaluz.tattoos/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Ishas account"/></a>',
         shop: '<a href="https://www.cheekymonkeyabq.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Cheeky Monkey Tattoos shop site"/></a>',
@@ -88,6 +90,7 @@ let artists = [
     },
     {
         img: 'images/artists/syd-settecerri.jpg',
+        alt: 'syd sitting in a chair hunched over tattooing her own leg',
         name: 'SYD SETTECERRI',
         instagram: '<a href="https://www.instagram.com/squidartificial/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Syds account"/></a>',
         shop: '<a href="https://www.cheekymonkeyabq.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Cheeky Monkey Tattoos shop site"/></a>',
@@ -96,7 +99,8 @@ let artists = [
         specialties: ['*Apprentice with interests in Black and Gray', 'Neotraditional', 'Traditional'],
     },
     {
-        img: 'images/artists/image-coming-soon.png',
+        img: 'images/artists/reina-plant.jpg',
+        alt: 'reina standing outside with half pink, half black hair',
         name: 'REINA PLANT',
         instagram: '<a href="https://www.instagram.com/reina.plant/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Reinas account"/></a>',
         shop: '<a href="https://www.allisonetattoo.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to All is One Tattoos shop site"/></a>',
@@ -106,6 +110,7 @@ let artists = [
     },
     {
         img: 'images/artists/nicole-sonobe.jpg',
+        alt: 'finished tattoo piece by nicole of a black and grey skull surrounded by flowers and geometric designs',
         name: 'NICOLE SONOBE',
         instagram: '<a href="https://www.instagram.com/romatra_/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Nicoles account"/></a>',
         shop: '<a href="https://blackalchemystudio.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Black Alchemys shop site"/></a>',
@@ -147,7 +152,7 @@ function handleLoadEvent () {
                                 <img src="${currentDataElement.img}" alt="${currentDataElement.img}" class="img-fluid">
                             </div>
                             <div class="col-lg-6 card-alignment">
-                                <!-- ids are for css styles -->
+                                <!-- ids are for css icon styles -->
                                 <p class="card-text" id="name">${currentDataElement.name}</p>
                                 <p class="card-text" id="shop">${currentDataElement.shopName}</p>
                                 <!-- joins values as string separated by comma and space -->
