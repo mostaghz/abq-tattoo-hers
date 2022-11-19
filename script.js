@@ -73,9 +73,8 @@ let artists = [
         alt: 'Kori Marie sitting outside and smiling with her head resting on her knuckles',
         name: 'KORI MARIE',
         instagram: '<a href="https://www.instagram.com/korixmarie/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Koris account"/></a>',
-        //Cellardoor doesn't have a site, so linking their instagram instead
-        shop: '<a href="https://www.instagram.com/cellardoorabq/?hl=en" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Cellardoor Collectives shop site"/></a>',
-        shopName: 'Cellardoor Collective',
+        shop: '<a href="https://www.allisonetattoo.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to All is Ones shop site"/></a>',
+        shopName: 'All is One Tattoo',
         booking: '<a href="mailto:korimarietattoo@gmail.com" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Koris email"/></a>',
         specialties: ['American Traditional'],
     },
