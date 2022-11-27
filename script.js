@@ -113,8 +113,8 @@ let artists = [
         alt: 'finished tattoo piece by nicole of a black and grey skull surrounded by flowers and geometric designs',
         name: 'NICOLE SONOBE',
         instagram: '<a href="https://www.instagram.com/romatra_/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Nicoles account"/></a>',
-        shop: '<a href="https://blackalchemystudio.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Black Alchemys shop site"/></a>',
-        shopName: 'Black Alchemy',
+        shop: '<a href="https://www.darkoaktattoos.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Dark Oaks shop site"/></a>',
+        shopName: 'Dark Oak Tattoo Studio',
         booking: '<a href="mailto:romatratattoo@gmail.com" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Nicoles email"/></a>',
         specialties: ['Blackwork', 'Dotwork', 'Geometric', 'Illustrative']
     },
