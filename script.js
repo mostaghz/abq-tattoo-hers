@@ -118,6 +118,26 @@ let artists = [
         booking: '<a href="mailto:romatratattoo@gmail.com" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Nicoles email"/></a>',
         specialties: ['Blackwork', 'Dotwork', 'Geometric', 'Illustrative']
     },
+    {
+        img: 'images/artists/meghan-mund.jpg',
+        alt: 'headshot of Meghan with septum piercing and neck tattoo',
+        name: 'MEGHAN MUND',
+        instagram: '<a href="https://www.instagram.com/meghantattoos/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Meghans account"/></a>',
+        shop: '<a href="https://www.urbaninkologystudio.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Urban Inkologys shop site"/></a>',
+        shopName: 'Urban Inkology Studio',
+        booking: '<a href="https://www.meghantattoos.com/" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Meghans site"/></a>',
+        specialties: ['American Traditional', 'Neotraditional', 'Realism']
+    },
+    {
+        img: 'images/artists/marina-palacios.jpg',
+        alt: 'Marina standing in front of cinder block wall wearing black tank top and jeans',
+        name: 'MARINA PALACIOS',
+        instagram: '<a href="https://www.instagram.com/mp_art3/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Marinas account"/></a>',
+        shop: '<a href="http://archetypetattoo.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Archetypes shop site"/></a>',
+        shopName: 'Archetype Tattoo Studio',
+        booking: '<a href="https://www.instagram.com/mp_art3/?hl=en" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Marinas Instagram"/></a>',
+        specialties: ['*Apprentice with interests in Black and Gray', 'Realism', 'Illustrative', 'Traditional']
+    },
 ]
 
 
