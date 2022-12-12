@@ -17,6 +17,7 @@
 let artists = [
     // instagram, shop, and booking are all hyperlinked icons - target="_blank" makes them open in new tab
     {
+        // CHELSEY MOORE
         img: 'images/artists/chelsey-moore.jpg',
         alt: 'Chelsey sitting in her tattooing space',
         name: 'CHELSEY MOORE',
@@ -28,6 +29,7 @@ let artists = [
         specialties: ['Color Illustrative', 'Color Realism'],
     },
     {
+        // FOX RICHARDS
         img: 'images/artists/fox-richards.jpg',
         alt: 'rainbow logo of a fox head',
         name: 'FOX RICHARDS',
@@ -39,6 +41,7 @@ let artists = [
         specialties: ['Black and Gray Realism mixed with Blackwork and Geometric'],
     },
     {
+        // ARI SHELTON
         img: 'images/artists/ari-shelton.jpg',
         alt: 'close up of Aris slightly smiling face',
         name: 'ARI SHELTON',
@@ -49,6 +52,7 @@ let artists = [
         specialties: ['Black and Gray/Color', 'Classical Art', 'Flora and Fauna', 'Illustrative Fine Line'],
     },
     {
+        // MAGGIE ELENA
         img: 'images/artists/maggie-elena.jpg',
         alt: 'Maggie Elena wearing black sweater with one shoulder exposed',
         name: 'MAGGIE ELENA',
@@ -59,6 +63,7 @@ let artists = [
         specialties: ['Heavy Blackwork'],
     },
     {
+        // GINA MARIE
         img: 'images/artists/gina-marie.jpeg',
         alt: 'grainy/old-timey photo of Gina holding small items',
         name: 'GINA MARIE',
@@ -69,6 +74,7 @@ let artists = [
         specialties: ['Illustrative Folk Art with Traditional roots'],
     },
     {
+        // KORI MARIE
         img: 'images/artists/kori-marie.jpg',
         alt: 'Kori Marie sitting outside and smiling with her head resting on her knuckles',
         name: 'KORI MARIE',
@@ -79,6 +85,7 @@ let artists = [
         specialties: ['American Traditional'],
     },
     {
+        // ISHA LUZ
         img: 'images/artists/isha-luz.jpg',
         alt: 'close up of Ishas face with her chin resting on her palm',
         name: 'ISHA LUZ',
@@ -89,6 +96,7 @@ let artists = [
         specialties: ['Anime', 'Black and Gray/Color Illustrative', 'Neotraditional'],
     },
     {
+        // SYD SETTECERI
         img: 'images/artists/syd-settecerri.jpg',
         alt: 'syd sitting in a chair hunched over tattooing her own leg',
         name: 'SYD SETTECERRI',
@@ -99,6 +107,7 @@ let artists = [
         specialties: ['*Apprentice with interests in Black and Gray', 'Neotraditional', 'Traditional'],
     },
     {
+        // REINA PLANT
         img: 'images/artists/reina-plant.jpg',
         alt: 'reina standing outside with half pink, half black hair',
         name: 'REINA PLANT',
@@ -109,6 +118,7 @@ let artists = [
         specialties: ['American Traditional'],
     },
     {
+        // NICOLE SONOBE
         img: 'images/artists/nicole-sonobe.jpg',
         alt: 'finished tattoo piece by nicole of a black and grey skull surrounded by flowers and geometric designs',
         name: 'NICOLE SONOBE',
@@ -119,6 +129,7 @@ let artists = [
         specialties: ['Blackwork', 'Dotwork', 'Geometric', 'Illustrative']
     },
     {
+        // MEGHAN MUND
         img: 'images/artists/meghan-mund.jpg',
         alt: 'headshot of Meghan with septum piercing and neck tattoo',
         name: 'MEGHAN MUND',
@@ -129,6 +140,7 @@ let artists = [
         specialties: ['American Traditional', 'Neotraditional', 'Realism']
     },
     {
+        // MARIA PALACIOS
         img: 'images/artists/marina-palacios.jpg',
         alt: 'Marina standing in front of cinder block wall wearing black tank top and jeans',
         name: 'MARINA PALACIOS',
