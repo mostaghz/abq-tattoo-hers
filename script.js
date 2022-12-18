@@ -150,6 +150,17 @@ let artists = [
         booking: '<a href="https://www.instagram.com/mp_art3/?hl=en" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Marinas Instagram"/></a>',
         specialties: ['*Apprentice with interests in Black and Gray', 'Realism', 'Illustrative', 'Traditional']
     },
+    {
+        // OSHUN RAPPA
+        img: 'images/artists/oshun-rappa.jpg',
+        alt: 'Headshot of Oshun inside a tattoo studio',
+        name: 'OSHUN RAPPA',
+        instagram: '<a href="https://www.instagram.com/oshun.rappa/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Oshuns account"/></a>',
+        shop: '<a href="https://acestattooabq.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Aces shop site"/></a>',
+        shopName: 'Aces Tattoo',
+        booking: '<a href="https://docs.google.com/forms/d/1YK0oXIPEvPHkCVecnXKLUGyEnhLjLBh0q_6nWHqQvWY/edit?chromeless=1" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Oshuns booking form"/></a>',
+        specialties: ['Black and Gray/Color', 'Dotwork', 'Geometric', 'Neotraditional', 'Woodcut']
+    },
 ]
 
 
