@@ -161,6 +161,17 @@ let artists = [
         booking: '<a href="https://docs.google.com/forms/d/1YK0oXIPEvPHkCVecnXKLUGyEnhLjLBh0q_6nWHqQvWY/edit?chromeless=1" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Oshuns booking form"/></a>',
         specialties: ['Black and Gray/Color', 'Dotwork', 'Geometric', 'Neotraditional', 'Woodcut']
     },
+    {
+        // KAILAH HERMAN
+        img: 'images/artists/kailah-herman.jpg',
+        alt: 'Headshot of Kailah inside a car',
+        name: 'KAILAH HERMAN',
+        instagram: '<a href="https://www.instagram.com/kailah.kawaii/?hl=en" target="_blank"><img src="images/icons/instagram-icon.png" class="icons" alt="white instagram icon linking to Kailahs account"/></a>',
+        shop: '<a href="https://www.instagram.com/catandcobra/?hl=en" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Cat and Cobras Instagram, they dont have a website"/></a>',
+        shopName: 'The Cat and The Cobra',
+        booking: '<a href="https://kailahc17.wixsite.com/kailahkawaii/about" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Kailahs website"/></a>',
+        specialties: ['Anime', 'Color Illustrative', 'Pop Culture']
+    },
 ]
 
 
