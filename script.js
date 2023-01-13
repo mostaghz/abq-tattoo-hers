@@ -159,7 +159,7 @@ let artists = [
         shop: '<a href="https://acestattooabq.com/" target="_blank"><img src="images/icons/tattoo-machine-icon.png" class="icons" alt="white tattoo machine icon linking to Aces shop site"/></a>',
         shopName: 'Aces Tattoo',
         booking: '<a href="https://docs.google.com/forms/d/1YK0oXIPEvPHkCVecnXKLUGyEnhLjLBh0q_6nWHqQvWY/edit?chromeless=1" target="_blank"><img src="images/icons/booking-icon.png" class="icons" alt="white calendar icon linking to Oshuns booking form"/></a>',
-        specialties: ['Black and Gray/Color', 'Dotwork', 'Geometric', 'Neotraditional', 'Woodcut']
+        specialties: ['Botanicals', 'Color', 'Geometric', 'Neotraditional']
     },
     {
         // KAILAH HERMAN
